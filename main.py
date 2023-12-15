@@ -17,7 +17,8 @@ def save_into_file(filename: str, data: list) -> None:
 
 
 if __name__ == '__main__':
-    coveralls = CoverallsCoverage('apache', 'commons-math')
+    # coveralls = CoverallsCoverage('apache', 'commons-math')
+    coveralls = CoverallsCoverage('ErnestFistozz', 'codecov-coveralls')
     coverage_importer = CoverageImporter()
     data = asyncio.get_event_loop().run_until_complete(coverage_importer.analyze_commits(coveralls)) #   coveralls.collect_builds_data())
     save_into_file('CoverallsAsync.csv', data)
