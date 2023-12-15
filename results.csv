@@ -1,0 +1,3372 @@
+[
+  [
+    {
+      "created_at": "2022-09-18T12:07:09Z",
+      "commit_sha": "51f57323a4de412cf0eab9287380e9ec3d97a02d",
+      "covered_percent": 90.556,
+      "branch": "relative_path",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-08-20T00:56:20Z",
+      "commit_sha": "97191fc73cda17794ac44cf2fcae629695001999",
+      "covered_percent": 90.562,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-08-19T19:02:24Z",
+      "commit_sha": "cbd08d0e3ef31bf1fbccb2ad1ffe6c28a1574822",
+      "covered_percent": 90.565,
+      "branch": "bug-MATH-1647",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-08-12T17:24:40Z",
+      "commit_sha": "3c1c92d3eb6c13db92ea6123f8ad0d2383117f66",
+      "covered_percent": 90.561,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-07-27T15:45:28Z",
+      "commit_sha": "1119bdbdefd0f6decb2211fd00cd3480b7e9dc13",
+      "covered_percent": 90.552,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-07-27T14:52:18Z",
+      "commit_sha": "515c92de184cb02bd51f5b8788d9488f22b84431",
+      "covered_percent": 90.551,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-07-25T16:09:20Z",
+      "commit_sha": "4107468b46520eb7a8d4899db5b9ebcff5d02644",
+      "covered_percent": 90.551,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-07-25T15:36:41Z",
+      "commit_sha": "71a856473cb6940da40e39a417e0907e95c2e633",
+      "covered_percent": 90.552,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-07-25T15:10:53Z",
+      "commit_sha": "4ef2d3b8c2d4acdc56dd2e64e12b8d58002ffe9a",
+      "covered_percent": 90.533,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-07-20T12:58:18Z",
+      "commit_sha": "f94991f224f01ba25c0677bf09e3f6e5861acd47",
+      "covered_percent": 90.539,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2022-07-15T16:42:46Z",
+      "commit_sha": "0bf33a4fc13474835414a24c80d50cc7710eaf49",
+      "covered_percent": 90.533,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-06-13T13:20:31Z",
+      "commit_sha": "e85dd59990a3b47793f5a26ac27e88a9f5ee9e53",
+      "covered_percent": 90.539,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-06-07T15:10:38Z",
+      "commit_sha": "294589d7b478fe388b9a1c2e28aa37c02cb6fe18",
+      "covered_percent": 90.539,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-04-09T12:26:45Z",
+      "commit_sha": "f067b2b4bae9d7690a84cd65bedd45bca5691441",
+      "covered_percent": 90.539,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-04-05T12:16:15Z",
+      "commit_sha": "cfb9bda8f8401a9eff45600be971c0dae1082884",
+      "covered_percent": 90.533,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-03-03T11:21:24Z",
+      "commit_sha": "57dda85533fbac18389a3ddc70e3640aa4484a91",
+      "covered_percent": 90.53,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-02-24T14:36:20Z",
+      "commit_sha": "9e2c6faf5102462abb21dd651e6aff47e20e374d",
+      "covered_percent": 90.125,
+      "branch": "feature/MATH-1563-RB-1",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-02-21T05:38:00Z",
+      "commit_sha": "e05a9eab7bfbc2c64ec1b1a19196b360c1ad0895",
+      "covered_percent": 90.118,
+      "branch": "feature/MATH-1563-RB-1",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-02-10T08:55:15Z",
+      "commit_sha": "685ccdc95518bb2fdf71c0194a943692b1b49dc0",
+      "covered_percent": 90.326,
+      "branch": "feature/MATH-1563-RB-1",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-02-09T16:41:27Z",
+      "commit_sha": "fb9a9615560303830d6f5afc57386e092ad2d1e6",
+      "covered_percent": 90.328,
+      "branch": "feature/MATH-1563-RB-1",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2022-02-07T02:33:26Z",
+      "commit_sha": "0d6c6e60f4f840f0798d5d98579c3b9c9ffac830",
+      "covered_percent": 90.331,
+      "branch": "feature__MATH-1563__genetic_algorithm",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-02-06T05:57:17Z",
+      "commit_sha": "ff24d7bbb16316a363a3023f9cc9c7b2f2a2ac97",
+      "covered_percent": 90.328,
+      "branch": "feature/MATH-1563-RB-1",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-02-05T09:19:54Z",
+      "commit_sha": "34139e7021fa1c790e274edb0233a8e365b27468",
+      "covered_percent": 90.325,
+      "branch": "feature/MATH-1563-FIX",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-02-01T00:10:05Z",
+      "commit_sha": "07deb60ecf11782d18c06deb098339109fe6bd5e",
+      "covered_percent": 90.328,
+      "branch": "feature__MATH-1563__genetic_algorithm",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-01-27T17:52:43Z",
+      "commit_sha": "c5ea177934387de3b2de813173b78b6debdf149a",
+      "covered_percent": 90.539,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-01-25T15:25:41Z",
+      "commit_sha": "7e2213f2e5a536ad49d549d21f9eed9e71db5638",
+      "covered_percent": 90.31,
+      "branch": "feature__MATH-1563__genetic_algorithm",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-01-21T06:49:13Z",
+      "commit_sha": "27e464bd0a6486ed25aa8463f13705cefc7e703f",
+      "covered_percent": 90.334,
+      "branch": "feature__MATH-1563__genetic_algorithm",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-01-21T00:46:18Z",
+      "commit_sha": "645d85a8c749a68e970f25331170faa62c330776",
+      "covered_percent": 90.57,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-01-19T04:30:56Z",
+      "commit_sha": "49f220cbcb4ed5bfd7f48b5c5e6bc4b26a7d0773",
+      "covered_percent": 90.561,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-01-19T00:24:42Z",
+      "commit_sha": "32c75646baca397ea492834a316b8003a32e124b",
+      "covered_percent": 90.561,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2022-01-18T19:36:16Z",
+      "commit_sha": "5b291c795051258a455fa65462f35c78f338f7d3",
+      "covered_percent": 90.57,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2022-01-18T18:31:18Z",
+      "commit_sha": "61cfea92d9dbfd30245260157c6beb303e71baa4",
+      "covered_percent": 90.561,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-10-13T13:31:07Z",
+      "commit_sha": "aa58ab0fd6229532ef29302342f9086f5e1a8dc8",
+      "covered_percent": 90.461,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-09-27T10:50:08Z",
+      "commit_sha": "1f03fcc1450a76a1e80229feedaed65e44047952",
+      "covered_percent": 90.418,
+      "branch": "feature/MATH-1563",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-09-26T23:17:43Z",
+      "commit_sha": "3a5cf279bbeed85a169ba4480b6dea10cb7a7beb",
+      "covered_percent": 90.451,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-09-26T15:46:47Z",
+      "commit_sha": "b36d7c2c29bb5a5b0544ed33754ee4e1d791577c",
+      "covered_percent": 90.097,
+      "branch": "feature/MATH-1563",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-09-25T16:28:27Z",
+      "commit_sha": "36d67928a1f51a35a38ba0b55fb5f32754465937",
+      "covered_percent": 90.086,
+      "branch": "feature/MATH-1563",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-09-25T16:09:12Z",
+      "commit_sha": "185ef372ba19840e98b7ab224185d723ab53c493",
+      "covered_percent": 90.086,
+      "branch": "feature/MATH-1563",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-09-24T08:53:58Z",
+      "commit_sha": "8353998122446fd797a768e378e9549c87fd8639",
+      "covered_percent": 90.08,
+      "branch": "feature/MATH-1563",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-09-14T18:57:48Z",
+      "commit_sha": "acfc27083412f57a71a497e500070a08a956300d",
+      "covered_percent": 90.453,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2021-09-07T07:18:34Z",
+      "commit_sha": "89e47236b9a73cac0e911d53cc26baeadf7d14ff",
+      "covered_percent": 90.453,
+      "branch": "dependabot",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-09-01T13:15:29Z",
+      "commit_sha": "470bdbb5f35ddde4935ed32529386f36b656213e",
+      "covered_percent": 90.462,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-09-01T04:22:15Z",
+      "commit_sha": "b22258073795ec34022e75d7d9c583fa41fae4d0",
+      "covered_percent": 90.465,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-26T01:03:38Z",
+      "commit_sha": "f58da4abf50d8ff627cc66dc89ece734ab98a0e5",
+      "covered_percent": 90.456,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-24T01:00:10Z",
+      "commit_sha": "f8d747661445203eec963b79ba7aa5bf182f037a",
+      "covered_percent": 90.469,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-23T07:15:37Z",
+      "commit_sha": "47904caeb88bda321e1d45012436bd3175dc1f51",
+      "covered_percent": 90.459,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-22T01:55:48Z",
+      "commit_sha": "fb314ef3dfd641eb47431ec3bb5eead4bd354ae7",
+      "covered_percent": 90.46,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-22T01:38:09Z",
+      "commit_sha": "9bb5791906efcdbb707834570c37ef6a79c797bc",
+      "covered_percent": 90.477,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-22T00:42:38Z",
+      "commit_sha": "f466637d82930c0104c1fd0dcc8e179a4ce9b98a",
+      "covered_percent": 90.456,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-21T09:13:49Z",
+      "commit_sha": "569e35ddbe98ed5dc74c74dbc2129d9178b818a1",
+      "covered_percent": 90.473,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2021-08-21T08:19:41Z",
+      "commit_sha": "3f7de0eb1e50546144004e3449be0978b68a2a5d",
+      "covered_percent": 90.459,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-21T07:25:15Z",
+      "commit_sha": "1fdd55981d4445103ce37be16fbb440eaca0928e",
+      "covered_percent": 90.45,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-20T16:38:44Z",
+      "commit_sha": "7ee70ef4748507a3f8dd67dc57c775f87732a87c",
+      "covered_percent": 90.453,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-19T03:21:25Z",
+      "commit_sha": "7813ecb115eae3c43973056d9155c1c5c98eabce",
+      "covered_percent": 90.458,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-18T13:39:24Z",
+      "commit_sha": "0a42dc86cbbc7872068180cf932a500f354cb725",
+      "covered_percent": 90.45,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-14T14:27:12Z",
+      "commit_sha": "a0cd950a7caebd2e7e0a271ef235c5dd880c8c0f",
+      "covered_percent": 90.453,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-14T02:07:36Z",
+      "commit_sha": "8804071ac759adaf39606d8f4343debb3099e5c2",
+      "covered_percent": 90.448,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-14T00:00:32Z",
+      "commit_sha": "5f36bf970a071a56fa1fa98e68455a8b07898889",
+      "covered_percent": 90.446,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-13T13:19:27Z",
+      "commit_sha": "c9b95e6eafe3250735dc7fbebdb2030e80935ea0",
+      "covered_percent": 90.479,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-13T09:03:12Z",
+      "commit_sha": "0230ab72ce305f76b84fcd5724c44e56b40b415a",
+      "covered_percent": 90.488,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2021-08-13T05:53:42Z",
+      "commit_sha": "eff87e568a76994409468dc1e16a72a6d0571519",
+      "covered_percent": 90.49,
+      "branch": "feature/simplify_assert",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-12T07:15:05Z",
+      "commit_sha": "b04a5d47a563953f277ccf712a406adbd648fa6f",
+      "covered_percent": 90.468,
+      "branch": "feature/simplify_assert",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-12T03:24:09Z",
+      "commit_sha": "872b6559509957c5738ddcf14cf6307dbfd64c41",
+      "covered_percent": 90.482,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-11T16:15:39Z",
+      "commit_sha": "9b7a2c8edca579929625f46f55b67eaffb3244ad",
+      "covered_percent": 90.488,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-10T22:27:28Z",
+      "commit_sha": "2509ce8db68afb3c4a456edc799fde9cd6680bca",
+      "covered_percent": 90.468,
+      "branch": "feature/simplify_assert",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-10T15:56:11Z",
+      "commit_sha": "aea043cffdd69d9cae1e22a2d580a0bf5aa022a4",
+      "covered_percent": 90.479,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-09T22:59:33Z",
+      "commit_sha": "fdbb8b98f5c0dba55d1bc607434ea00e2b9c3145",
+      "covered_percent": 90.479,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-07T20:49:21Z",
+      "commit_sha": "1444d2d8d18c81f3350719a41c473c7468e46126",
+      "covered_percent": 90.468,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-07T12:46:22Z",
+      "commit_sha": "dd294d7c919e7ae88641768f6ba710dcaa5a87eb",
+      "covered_percent": 90.482,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-07T12:35:04Z",
+      "commit_sha": "ed73633236e1e543c5398b8af2417aa6bcbe43ac",
+      "covered_percent": 90.485,
+      "branch": "feature/MATH-1573",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2021-08-06T07:15:20Z",
+      "commit_sha": "bb3e6551456cf235dd8404f6d36f57e0f4f9123e",
+      "covered_percent": 90.473,
+      "branch": "feature/MATH-1573",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-06T01:19:28Z",
+      "commit_sha": "37d5269056fbd7c4e6626ec6797ea93ca20b819d",
+      "covered_percent": 90.487,
+      "branch": "feature/MATH-1572",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-03T15:45:18Z",
+      "commit_sha": "771a21815b4329302fc174ef2ad80b46ed8247f0",
+      "covered_percent": 90.472,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-08-02T00:46:09Z",
+      "commit_sha": "3df6d879e701b442fabf709c8143e6ca8f8f9547",
+      "covered_percent": 90.481,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-07-30T02:07:39Z",
+      "commit_sha": "7f8dcce3170f475ce09fdf42334c5152f0afa672",
+      "covered_percent": 90.478,
+      "branch": "MATH-1617",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-07-19T13:28:23Z",
+      "commit_sha": "8cd59b991eeb911d94b82504cff737bcafa1b660",
+      "covered_percent": 90.478,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-07-18T16:34:29Z",
+      "commit_sha": "dbec0bd7a77d70d9a8c6c8039a818fe0a5fdbf52",
+      "covered_percent": 90.546,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-07-18T14:44:22Z",
+      "commit_sha": "647e1e36cd7676ff8fd881c46a25574b406bede8",
+      "covered_percent": 90.475,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-07-18T14:00:15Z",
+      "commit_sha": "f9c0a8b67895d1c192c4d90be888114288e0fbea",
+      "covered_percent": 90.486,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-07-17T13:33:02Z",
+      "commit_sha": "1c737b3570df027c553eb7df7578ce408e197d2d",
+      "covered_percent": 90.481,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2021-07-17T12:44:47Z",
+      "commit_sha": "84f15db1bbfe6ca77369f678b2e71e21605e4c39",
+      "covered_percent": 90.49,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-07-16T23:21:39Z",
+      "commit_sha": "fb283c85e3c336d09080b5430e72e5a515599aa1",
+      "covered_percent": 90.449,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-07-15T14:00:35Z",
+      "commit_sha": "78b143206b7503c718cbd03153bba255ba2074a9",
+      "covered_percent": 90.46,
+      "branch": "feature/MATH-1597",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-07-14T23:52:28Z",
+      "commit_sha": "dcf83c02a7a341ce40d02521a9e8d4cb863e4728",
+      "covered_percent": 90.443,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-07-14T22:44:39Z",
+      "commit_sha": "73d82834baaeed21e16339ae073d62d369c581d0",
+      "covered_percent": 90.443,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-07-14T14:20:35Z",
+      "commit_sha": "6bc42d33d276848a9700935cb02edd78fb591ff4",
+      "covered_percent": 90.457,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-07-11T19:55:07Z",
+      "commit_sha": "df895da9be085601f083dcf3d5657309b961a396",
+      "covered_percent": 90.459,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-07-11T17:58:57Z",
+      "commit_sha": "f4244dc76dfb32b7f19cfd49eed78928a4ca0e08",
+      "covered_percent": 90.513,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-07-11T01:24:58Z",
+      "commit_sha": "509f50b0a5ea3cfa7b633dfd4aab20f0b95278a0",
+      "covered_percent": 90.518,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-07-06T07:26:21Z",
+      "commit_sha": "4c19bb79cabb4d8bfec7c074792fa2a428766744",
+      "covered_percent": 90.436,
+      "branch": "feature/MATH-1597",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2021-07-04T09:48:15Z",
+      "commit_sha": "450e36f6d4b6f1aa77125695b19d6f38258ca442",
+      "covered_percent": 90.43,
+      "branch": "MATH-1528-remove-serializable",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-25T19:38:28Z",
+      "commit_sha": "7f425354fb4eed78832bbcb37b81acfd21879ab0",
+      "covered_percent": 90.427,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-23T00:18:53Z",
+      "commit_sha": "03923d2b79addad2eca68926207338f8860f9991",
+      "covered_percent": 90.44,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-17T15:34:15Z",
+      "commit_sha": "0a3c4023ddc1a1c14c85b54f8742a58401ee08d9",
+      "covered_percent": 90.424,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-14T20:44:57Z",
+      "commit_sha": "b509678e95f313d05bfdae6e38492b3dbb306b5a",
+      "covered_percent": 90.485,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-10T18:16:20Z",
+      "commit_sha": "bdc4a527fb526da71042b4cbf7acbb9484885c40",
+      "covered_percent": 90.311,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-10T14:22:46Z",
+      "commit_sha": "c67bf75076860be55ae78e7eebeacd8074b808e0",
+      "covered_percent": 90.329,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-10T02:23:08Z",
+      "commit_sha": "64474ed9633c4a2856f6bc4becdd22869046a716",
+      "covered_percent": 90.329,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-09T16:13:07Z",
+      "commit_sha": "6698b7d21cd421aefda19f06ef684b31440d4ed0",
+      "covered_percent": 90.434,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-05T01:30:41Z",
+      "commit_sha": "ac25b3b9f35218f1c5ba9b2ded9e5389ab035e50",
+      "covered_percent": 90.445,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2021-06-03T22:33:11Z",
+      "commit_sha": "b57414909476ac4e22768cd33e157f112fdde975",
+      "covered_percent": 90.327,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-03T17:51:25Z",
+      "commit_sha": "8f39a414c112fe1ca59b1aa8b4b45485b04d74b8",
+      "covered_percent": 90.322,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-01T23:16:19Z",
+      "commit_sha": "8afd815000e61ffc98bb5207fbfc483171fa2787",
+      "covered_percent": 90.358,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-01T19:34:18Z",
+      "commit_sha": "1b5caa2ba541bbbe115c1d17c8bfc48613e1a49c",
+      "covered_percent": 90.37,
+      "branch": "feature/MATH-1597",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-01T18:54:59Z",
+      "commit_sha": "aba43a35170d75ace619449338bf2be6fd92f669",
+      "covered_percent": 90.358,
+      "branch": "feature/MATH-1597",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-01T18:29:13Z",
+      "commit_sha": "d8ace5733e42bf61b6227ea5cbd07828909a0d6b",
+      "covered_percent": 90.364,
+      "branch": "feature/MATH-1597",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-01T18:09:08Z",
+      "commit_sha": "1ce093858419d150c30f5d548d086f2cd06ed6a2",
+      "covered_percent": 90.355,
+      "branch": "feature/MATH-1598",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-01T17:53:43Z",
+      "commit_sha": "8eca47f0bbda8879482d44aec8235f5feb3b5744",
+      "covered_percent": 90.358,
+      "branch": "feature/MATH-1600",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-01T16:38:58Z",
+      "commit_sha": "d21b63942516a06a03d79d53d9162be543b0fd70",
+      "covered_percent": 90.362,
+      "branch": "feature/MATH-1597",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-01T14:43:38Z",
+      "commit_sha": "5b8cc8879b90733678e9a4a559984c382a23f80e",
+      "covered_percent": 90.362,
+      "branch": "feature/MATH-1597",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2021-06-01T11:58:31Z",
+      "commit_sha": "787d42ef07e6dc8d7aa47a9156d851281a7f2954",
+      "covered_percent": 90.372,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-06-01T05:13:47Z",
+      "commit_sha": "491798e0de8d1cff013a3cf8bb956d7cd4ca6e3c",
+      "covered_percent": 90.369,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-05-31T23:48:19Z",
+      "commit_sha": "a5e0b2e7f68c9fdedb70161f748a88b38a309034",
+      "covered_percent": 90.372,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-05-31T22:49:17Z",
+      "commit_sha": "e85e8b53f22d6b470492862a67f39068117bd175",
+      "covered_percent": 90.369,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-05-31T14:18:35Z",
+      "commit_sha": "ce65e6ba3fa43e8e119783532250a89367b4b2ec",
+      "covered_percent": 90.448,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-05-31T01:57:07Z",
+      "commit_sha": "f24fd147184ba6b2c6a6cb41aad1fa861f000486",
+      "covered_percent": 90.592,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-05-29T14:42:46Z",
+      "commit_sha": "e604e60709bff4e8534b689566d56f4b4d6bccaa",
+      "covered_percent": 90.573,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-05-27T10:32:11Z",
+      "commit_sha": "943f581629358af1f8327a2ba5d67b78a9896d36",
+      "covered_percent": 90.614,
+      "branch": "feature/MATH-1586",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-05-10T19:32:28Z",
+      "commit_sha": "d080f0d8251d58728024955764a5c0c75acf8277",
+      "covered_percent": 90.703,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-04-19T21:38:10Z",
+      "commit_sha": "11398332e75ecec81b5b679341b4b94f44c505d1",
+      "covered_percent": 90.703,
+      "branch": "dependabot",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2021-04-13T16:17:22Z",
+      "commit_sha": "41e3394c135d85ff38093c26ef07ee4a93e3b315",
+      "covered_percent": 90.717,
+      "branch": "feature/MATH-1572",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-04-13T15:55:07Z",
+      "commit_sha": "3bfe940e715aefcc3de27353fc45fd148857bec6",
+      "covered_percent": 90.688,
+      "branch": "feature/MATH-1573",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-04-13T13:53:21Z",
+      "commit_sha": "e29fd602381be65c0e2c2e4cd1e1c59bfa16c8bd",
+      "covered_percent": 90.703,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-04-13T09:05:11Z",
+      "commit_sha": "a2940689bc60073e2718d815ce6faece028cb3ac",
+      "covered_percent": 90.695,
+      "branch": "feature/MATH-1573",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-04-13T08:50:06Z",
+      "commit_sha": "ce3f005dff372e4f0b0e9a7f6ded1a74b6ac023a",
+      "covered_percent": 90.718,
+      "branch": "feature/MATH-1572",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-04-13T08:40:35Z",
+      "commit_sha": "0861ca3db46032762e19d6f50f4006a47e015f90",
+      "covered_percent": 90.695,
+      "branch": "feature/MATH-1571",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-04-13T08:30:02Z",
+      "commit_sha": "c0b67fa4060c4232e5466bb90ed8b5bdfc7bd98f",
+      "covered_percent": 90.702,
+      "branch": "feature/MATH-1569",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-04-12T20:29:07Z",
+      "commit_sha": "c2f23d682fea04d9d33a76fd8644f010ce1d5582",
+      "covered_percent": 90.703,
+      "branch": "feature/MATH-1570",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-04-12T10:02:00Z",
+      "commit_sha": "26511237d21026623bc7ff26a1d2e90f16f21325",
+      "covered_percent": 90.7,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-04-12T05:52:59Z",
+      "commit_sha": "583fb7276748ae2bedf07370291df99ea5d6e7d9",
+      "covered_percent": 90.703,
+      "branch": "feature/redundantInitializer",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2021-04-12T05:48:57Z",
+      "commit_sha": "508357209077bd660b9fc3957f08bfb900fc8862",
+      "covered_percent": 90.713,
+      "branch": "feature/newOutputStream",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-03-14T00:23:54Z",
+      "commit_sha": "726fd514bcbc1fdbbfbb13d627436b0d4f80cf19",
+      "covered_percent": 90.702,
+      "branch": "dependabot",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-02-08T19:30:16Z",
+      "commit_sha": "0300f97d74fa0207570b5ea3ecadbf9896d3ecc4",
+      "covered_percent": 90.713,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-01-25T10:07:46Z",
+      "commit_sha": "ba1799cdd7f5b50065b3bf1408ba6ab878c6ae00",
+      "covered_percent": 90.705,
+      "branch": "dependabot",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-01-17T14:36:53Z",
+      "commit_sha": "d71b8c93d20187da61113990f44cb16345cf72cb",
+      "covered_percent": 90.713,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-01-17T02:50:09Z",
+      "commit_sha": "b7dd3fd3d11df92e3f653f001e1a924a9fc49b73",
+      "covered_percent": 90.71,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-01-10T01:03:26Z",
+      "commit_sha": "fb68dfd3e80e1623fb54cc3ecc413ad8ca179df7",
+      "covered_percent": 90.713,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-01-09T23:39:20Z",
+      "commit_sha": "33613a07a4f11e8c8617a350e32442e3577fa083",
+      "covered_percent": 90.705,
+      "branch": "dependabot",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2021-01-09T23:14:57Z",
+      "commit_sha": "750a61686f16b9d6067514df4c88afffe43c2f19",
+      "covered_percent": 90.713,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-12-22T14:48:08Z",
+      "commit_sha": "90efa03f5f734560830b3cdaf1728a2ca0881184",
+      "covered_percent": 90.705,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2020-12-22T00:27:17Z",
+      "commit_sha": "8d2cccf8241869f215aa3d836b84fa82aa1d8329",
+      "covered_percent": 90.713,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-10-28T20:07:30Z",
+      "commit_sha": "1bc542778bb3792e90996ef18c3b938791a92c90",
+      "covered_percent": 90.713,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-10-28T19:50:47Z",
+      "commit_sha": "fed4cc7e3739c4ee70dbed43fb8f5246641c62a4",
+      "covered_percent": 90.705,
+      "branch": "fix-testGetAvailableLocales",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-10-28T02:28:47Z",
+      "commit_sha": "bb02fad3e3663062e563c29302375279fcd0cb45",
+      "covered_percent": 90.713,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-10-28T00:07:14Z",
+      "commit_sha": "14c2b29a7040539983f3f1a81061d26ce75c494a",
+      "covered_percent": 90.713,
+      "branch": "fix-testCreateFromDoubles",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-10-21T00:38:41Z",
+      "commit_sha": "43b77ffabba8a48144080674973362150cbcfb28",
+      "covered_percent": 90.713,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-10-20T22:33:08Z",
+      "commit_sha": "ba314d5fab842513a7a714d8bc6e15844e6d3777",
+      "covered_percent": 90.704,
+      "branch": "MATH-1558-MidPointIntegrator",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-10-14T15:16:30Z",
+      "commit_sha": "5107299cd1e6a281a49fd4c4c700dbcb32101228",
+      "covered_percent": 90.703,
+      "branch": "dependabot",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-10-11T22:26:21Z",
+      "commit_sha": "0b3629b4b0942ff138b71713b5267eeb13342ecd",
+      "covered_percent": 90.709,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-10-11T18:50:46Z",
+      "commit_sha": "a350ed0640e569507814c9562db9bbe639e776d9",
+      "covered_percent": 90.703,
+      "branch": "junit-4.13.1",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2020-10-08T16:00:37Z",
+      "commit_sha": "27f289f6be1396893247f13225a52388f598a8d7",
+      "covered_percent": 90.712,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-10-01T11:44:51Z",
+      "commit_sha": "84ca1592673a635f7f09548fa7f48469f1b805a8",
+      "covered_percent": 90.703,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-10-01T09:27:36Z",
+      "commit_sha": "5913612030be5445aa5526addfe7214756bbe510",
+      "covered_percent": 90.709,
+      "branch": "imports",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-08-26T23:55:54Z",
+      "commit_sha": "450dadfd59a442eed6db0080ff30727836fdf97c",
+      "covered_percent": 90.703,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-07-30T22:15:26Z",
+      "commit_sha": "e99434d9377fbb406b62bd8dbf94d7367ccc75b0",
+      "covered_percent": 90.712,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-07-30T16:29:50Z",
+      "commit_sha": "f25a3e00b3d9ba33974aa84a2a45f3dbb72eeafa",
+      "covered_percent": 90.655,
+      "branch": "MATH-1551-WeightedPercentile",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-07-29T18:31:55Z",
+      "commit_sha": "90ea1c921825463e5f6ea9dcab6ac22152d7c8e4",
+      "covered_percent": 90.75,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-07-29T15:08:40Z",
+      "commit_sha": "fee4bc14432784467fdf4bf962290c98b58b6e39",
+      "covered_percent": 90.663,
+      "branch": "MATH-1551-WeightedPercentile",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-07-29T09:50:27Z",
+      "commit_sha": "6aba4a8fd39f1155cceafd51cc457c2be02a8d14",
+      "covered_percent": 90.607,
+      "branch": "MATH-1551-WeightedPercentile",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-07-28T23:19:04Z",
+      "commit_sha": "b1c0b4db5190986216f810190c4bed4dd9aa0bb5",
+      "covered_percent": 90.742,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2020-07-28T22:10:05Z",
+      "commit_sha": "0e3b77d76ca36a44c3e53308091a630915c0f012",
+      "covered_percent": 90.964,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-07-28T21:31:55Z",
+      "commit_sha": "3d2b2107b58ffc316c849da43734506b7fe04254",
+      "covered_percent": 90.956,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-07-27T10:23:05Z",
+      "commit_sha": "97df26e127ecd367ad03052bbc460cbd805a4305",
+      "covered_percent": 90.817,
+      "branch": "MATH-1551-WeightedPercentile",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-07-26T11:25:30Z",
+      "commit_sha": "d96109faf86a8a36097067637d401b685a1ec04b",
+      "covered_percent": 90.825,
+      "branch": "MATH-1551-WeightedPercentile",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-07-21T18:36:01Z",
+      "commit_sha": "d0ed03c953bf436fc4dc32260c6018a7791c9efc",
+      "covered_percent": 90.953,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-07-21T14:56:59Z",
+      "commit_sha": "3e7745ebc6849486c7696f4e4603df84bb7fc9ba",
+      "covered_percent": 90.956,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-07-21T14:00:54Z",
+      "commit_sha": "3ed7faba1b108b8614bcdbb9e1946ee9c17c3bdc",
+      "covered_percent": 90.961,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-07-20T20:07:29Z",
+      "commit_sha": "7b1c1c4bc2c2266a5bb6488fdd9fc26c8198f716",
+      "covered_percent": 90.956,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-07-20T17:02:39Z",
+      "commit_sha": "3c8fd7332232399d6163e6ce622cd26d16195eae",
+      "covered_percent": 90.956,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-07-17T01:14:21Z",
+      "commit_sha": "978816279000c91b8d0b970377f114fd76e1073b",
+      "covered_percent": 90.954,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2020-07-14T12:55:05Z",
+      "commit_sha": "4108f5f35e22db3401a11fbbf93f85be21394f5c",
+      "covered_percent": 90.94,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-29T01:08:54Z",
+      "commit_sha": "72652ea2e63176426ca0e04a2a3c5f755278097d",
+      "covered_percent": 90.948,
+      "branch": "useStream",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-28T23:04:07Z",
+      "commit_sha": "849d551b8a9507a2ae8dfb81db36aa544a81ee47",
+      "covered_percent": 90.937,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-22T10:51:55Z",
+      "commit_sha": "0d937abf8ca9878aadc1b4e62e333976e74e8942",
+      "covered_percent": 90.562,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-22T03:51:18Z",
+      "commit_sha": "25774b60920347f67d9b528863d347f23702108d",
+      "covered_percent": 90.554,
+      "branch": "simplify-condition",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-18T16:48:44Z",
+      "commit_sha": "f6defc0a0dcc91d99d5e846f7c229a8d1cf5c4d2",
+      "covered_percent": 90.553,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-08T10:30:50Z",
+      "commit_sha": "bfa5b60eff89ef75fabd5fbd53e61c56b4b65566",
+      "covered_percent": 90.554,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-07T11:13:35Z",
+      "commit_sha": "79643e3bb13fc66eb58f356a62342277d4ab0440",
+      "covered_percent": 90.564,
+      "branch": "change_result_check_of_compareTo",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-07T10:45:16Z",
+      "commit_sha": "1ae8f31ac4621a0755ba74531c7d34b58946f2a8",
+      "covered_percent": 90.556,
+      "branch": "delete_a_needless_null",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-07T10:35:55Z",
+      "commit_sha": "1e66d89535255e24579b1314b0a37098e9fa7c1a",
+      "covered_percent": 90.567,
+      "branch": "refine_equals_from_classpassexception",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2020-06-07T10:16:17Z",
+      "commit_sha": "f31ba8611b7ec868a0fee6099e5bf18c8494494a",
+      "covered_percent": 90.55,
+      "branch": "remove_==_null_as_it_is_covered_by_instance_of",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-07T09:05:19Z",
+      "commit_sha": "30fae35b5393fce7cb265daa384d2ac69ec02030",
+      "covered_percent": 90.563,
+      "branch": "use_System.arraycopy",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-06T16:47:46Z",
+      "commit_sha": "8331da7cba853375dbb6dfebbc9fa858022e7690",
+      "covered_percent": 90.556,
+      "branch": "simplify-condition",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-06T16:37:44Z",
+      "commit_sha": "cded6c82829fcda897d97f5cd9e9b646a708d232",
+      "covered_percent": 90.564,
+      "branch": "simplify-condition",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-06T15:09:47Z",
+      "commit_sha": "53d213149ddf75c02c8f1a0b483082683f448e30",
+      "covered_percent": 90.556,
+      "branch": "replace-for-with-forEach",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-06T12:21:35Z",
+      "commit_sha": "7eb89fcd3c50f0f716bfbe2f7a9779793badbd5b",
+      "covered_percent": 90.555,
+      "branch": "use_System.arraycopy",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-06T12:19:29Z",
+      "commit_sha": "37bca793b6b384da30f28a51ff96500f54582659",
+      "covered_percent": 90.555,
+      "branch": "use_System.arraycopy",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-06T12:17:41Z",
+      "commit_sha": "b203a81b82d7028a1df39d7b793c0ac7147f3922",
+      "covered_percent": 90.564,
+      "branch": "use_System.arraycopy",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-06T12:08:37Z",
+      "commit_sha": "f9c250b309b3f893d006d94ecb9afa551fadec29",
+      "covered_percent": 90.556,
+      "branch": "refine_some_codes_dealing_with_filling_an_array_with_its_first_and_second_elements",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-06T11:00:25Z",
+      "commit_sha": "ba8a26705e7656201951ddc1a4a67c6aaa62d146",
+      "covered_percent": 90.556,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2020-06-06T09:39:56Z",
+      "commit_sha": "b54fa5151748a8b5b8051429b42f6906e56a2bb2",
+      "covered_percent": 90.557,
+      "branch": "use_System.arraycopy",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-06T08:24:57Z",
+      "commit_sha": "265d640db5d7804c7bb4eb9171302636342b6059",
+      "covered_percent": 90.554,
+      "branch": "use_System.arraycopy",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-05T07:49:44Z",
+      "commit_sha": "42f0a3cc6046177a1930896882a030c7b571472b",
+      "covered_percent": 90.563,
+      "branch": "use_System.arraycopy",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-04T20:53:36Z",
+      "commit_sha": "1ad5a1fb79dacf05b4d4d787e48250120b3f2061",
+      "covered_percent": 90.56,
+      "branch": "use_subList().clear",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-04T20:24:06Z",
+      "commit_sha": "61e6d0b61ce72ea227f6a9afa2901d251aeb6cf3",
+      "covered_percent": 90.561,
+      "branch": "use_addAll_instead_of_loop",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-04T15:33:10Z",
+      "commit_sha": "eaadcba82364e03e7449ba3471a50d3bfb208438",
+      "covered_percent": 90.56,
+      "branch": "clean_up_in_tests",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-03T10:27:16Z",
+      "commit_sha": "715d89d2625b09915feb1dd1b60270842eeffb7a",
+      "covered_percent": 90.56,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-03T03:14:00Z",
+      "commit_sha": "fb42c47d567c6717c4137b4faa6eddc55019c9e1",
+      "covered_percent": 90.56,
+      "branch": "fix_typos",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-03T03:03:20Z",
+      "commit_sha": "b50e6d45e0de34aea0e6df008b528ba9c82431ec",
+      "covered_percent": 90.552,
+      "branch": "refine_javadoc",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-06-02T19:58:47Z",
+      "commit_sha": "59e53f44856cfbd43feca98123f753e92fd57580",
+      "covered_percent": 90.552,
+      "branch": "refine_jafvadoc_and_fix_typos",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2020-05-29T21:27:15Z",
+      "commit_sha": "67aea22b0882675886b78a296d7055e66bd5a2e6",
+      "covered_percent": 90.552,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-05-27T01:27:04Z",
+      "commit_sha": "31be9f198c846ecd3b16965fa2f3318c9539551f",
+      "covered_percent": 90.559,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-05-26T04:14:07Z",
+      "commit_sha": "b0f4bd438a108ccbfe2955d5f165d50a765f729c",
+      "covered_percent": 90.557,
+      "branch": "patch-1",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-05-18T10:27:07Z",
+      "commit_sha": "b05b3b9a90956293ae0cd4c423635bf8bdfb12f1",
+      "covered_percent": 90.551,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-04-27T05:53:54Z",
+      "commit_sha": "bbfe7e4ea526e39ba0a79f0258200bc0d898f0de",
+      "covered_percent": 90.551,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-04-11T14:36:46Z",
+      "commit_sha": "8ce34483549796052a1e81419152edef8e83e5ea",
+      "covered_percent": 90.551,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-04-11T12:32:20Z",
+      "commit_sha": "2764b8239fe49a4328a0c51a74204a31ee1e451e",
+      "covered_percent": 90.551,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-04-11T09:35:53Z",
+      "commit_sha": "e930ca6b27e07770260b577825d8a7fdf39429ec",
+      "covered_percent": 90.556,
+      "branch": "enum-dist-minor-improvement",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-04-07T19:32:04Z",
+      "commit_sha": "7b005845af41746e938b713b6fc8f45ff98a8e60",
+      "covered_percent": 90.55,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-04-05T12:23:13Z",
+      "commit_sha": "00f4de04fb0452bcf29053842935c8ba7257e13c",
+      "covered_percent": 90.556,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2020-03-26T18:27:01Z",
+      "commit_sha": "8be7fa43436dd87eec4b5671dff8b7c385db6c2a",
+      "covered_percent": 90.554,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-26T10:09:56Z",
+      "commit_sha": "e1eb47ad2c4de82b48ef2523f7bb00f840c4a53d",
+      "covered_percent": 90.543,
+      "branch": "RestoreChooseInitialCenters",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-25T16:18:56Z",
+      "commit_sha": "7ae8c7ac46f979891af3cca3d1c52ca984125002",
+      "covered_percent": 90.556,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-25T15:21:04Z",
+      "commit_sha": "5bc486a284b6984df4b05a80ab12dc2fb979395b",
+      "covered_percent": 90.553,
+      "branch": "ImprovementEvaluatorDoc",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-25T14:52:08Z",
+      "commit_sha": "ac5cde7800081103ae4d85f53a4cae0de0d86161",
+      "covered_percent": 90.547,
+      "branch": "PackageInfoForClusterInitializations",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-24T05:00:06Z",
+      "commit_sha": "2cdcef7b677e8c9842304a427849878d7cf8ebd0",
+      "covered_percent": 90.547,
+      "branch": "PackageInfoForClusterInitialization",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-24T04:26:05Z",
+      "commit_sha": "fd9fa14ae0fdc906f362aa0175709f8ee7e93280",
+      "covered_percent": 90.556,
+      "branch": "MiniBatchImprovementEvaluator",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-22T15:55:17Z",
+      "commit_sha": "6b0395898e9469fda20f011ded8dce3f9d0df907",
+      "covered_percent": 90.547,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-22T04:17:17Z",
+      "commit_sha": "1a634e000099d229a22e4defeb06c0e4a3c8b8c1",
+      "covered_percent": 90.559,
+      "branch": "feature-minibatchkmeans++",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-21T16:20:20Z",
+      "commit_sha": "22373aeb76811aae77f581143e9fed34580316eb",
+      "covered_percent": 90.519,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2020-03-18T08:58:17Z",
+      "commit_sha": "a0665505343651293e3d290ce1207347e8aa495c",
+      "covered_percent": 90.538,
+      "branch": "MoveOutEmptyClusterStrategy",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-18T07:34:56Z",
+      "commit_sha": "955f56fbe491bec47c170480c32df2ada9b0b2db",
+      "covered_percent": 90.519,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-15T00:45:53Z",
+      "commit_sha": "c13179ef737b8771cc12d2416a230e2b6cafbb05",
+      "covered_percent": 90.519,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-11T01:23:26Z",
+      "commit_sha": "169062c7a5d9fdc5e5aa9951ae32440010fb3b81",
+      "covered_percent": 90.519,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-10T19:27:56Z",
+      "commit_sha": "fb78e1af4f8975d79feefd92bb2d0ba09599ed07",
+      "covered_percent": 90.526,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-09T18:50:58Z",
+      "commit_sha": "c234e7dc32f90bb2b0491c7f77a930321447e8df",
+      "covered_percent": 90.517,
+      "branch": "Feature_Calinski-Harabasz",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-09T03:46:42Z",
+      "commit_sha": "8275b50693ab98044eccee8398c54d64fc63e1c8",
+      "covered_percent": 90.518,
+      "branch": "HalinskiHarabasz",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-09T03:14:26Z",
+      "commit_sha": "ba1c315eeb9278e2f8e865bad207e47642bc7a1f",
+      "covered_percent": 90.526,
+      "branch": "HalinskiHarabasz",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-08T01:10:06Z",
+      "commit_sha": "aafc49afd764351668045c0fadf2ad6222490ba7",
+      "covered_percent": 90.509,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-07T19:52:02Z",
+      "commit_sha": "d64d4c9c02ae487e90e23d40f945cf78991ff1e0",
+      "covered_percent": 90.512,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2020-03-07T12:31:55Z",
+      "commit_sha": "cead528b76eee584dd8712eac8d44b9a5b755a50",
+      "covered_percent": 90.513,
+      "branch": "HalinskiHarabasz",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-03-06T16:47:44Z",
+      "commit_sha": "e175ef05507df9ecc02587793c4a47e2d8b818fb",
+      "covered_percent": 90.513,
+      "branch": "HalinskiHarabasz",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-02-27T20:36:15Z",
+      "commit_sha": "a9411e6a69ed22a8f91babe2655926c31584dc70",
+      "covered_percent": 90.513,
+      "branch": "DOC-WilcoxonSignedRankTest",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-02-25T13:45:58Z",
+      "commit_sha": "8c24098ffb9e751830df705c73b3740c1dea27fb",
+      "covered_percent": 90.457,
+      "branch": "Feature-MiniBatchKMeans2",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2020-02-18T16:28:29Z",
+      "commit_sha": "4d5983aa8756c99cdd20618aecf24ea31c399311",
+      "covered_percent": 90.513,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-12-27T12:03:39Z",
+      "commit_sha": "80df02f2d2a3180a30a6748a640588735ce8aaaa",
+      "covered_percent": 90.496,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-12-27T08:38:48Z",
+      "commit_sha": "27d369ae548144a5d8561a28edb8ef232a15e38b",
+      "covered_percent": 90.493,
+      "branch": "MATH-1408",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-12-24T13:14:51Z",
+      "commit_sha": "a81b218d47b54af46030f3ef4231f619899c5667",
+      "covered_percent": 90.454,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-12-17T02:28:50Z",
+      "commit_sha": "bf5d19e08bfc74c56bc3d3828e5c3d93abbdff8b",
+      "covered_percent": 90.438,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-12-17T01:43:07Z",
+      "commit_sha": "f7e0d743526a9af68233a21e4af01810c1ded2b8",
+      "covered_percent": 90.435,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2019-12-16T13:03:56Z",
+      "commit_sha": "49f3afd6b8caaa81da842495ffb016379b029432",
+      "covered_percent": 90.45,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-12-03T14:26:23Z",
+      "commit_sha": "b6a65a7b6e80ba4ef602b5ed2579a063d28f2249",
+      "covered_percent": 90.44,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-12-03T14:16:21Z",
+      "commit_sha": "084db0dcc42b906da45eb639ede4c9fa1e28b85b",
+      "covered_percent": 89.831,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-12-03T14:00:30Z",
+      "commit_sha": "cf2b9e7479179bff9111df99b7fa9f30a1bd5a8b",
+      "covered_percent": 89.829,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-12-03T12:11:18Z",
+      "commit_sha": "b8d96de5871d938f678b4702c2fcc306bdf1f34d",
+      "covered_percent": 89.832,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-12-02T07:30:33Z",
+      "commit_sha": "1c3ccc4d2e560c49b2be2cde352882a4f92dc4e5",
+      "covered_percent": 89.871,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-12-02T04:54:51Z",
+      "commit_sha": "735dbc79340d609318a339cf7b85cb542e969d0a",
+      "covered_percent": 89.879,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-10-28T01:54:45Z",
+      "commit_sha": "471d4d60dc21fbccb8c6b4616a00238c245f78f6",
+      "covered_percent": 90.183,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-09-27T18:55:53Z",
+      "commit_sha": "6ce50484f627a9ade827d7150f47c41cc7dcc3ef",
+      "covered_percent": 90.158,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-09-17T10:39:11Z",
+      "commit_sha": "54cbe2ad72c21aed214092eeb42aa35d611fe5a0",
+      "covered_percent": 89.77,
+      "branch": "update-pre-release",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2019-09-16T15:55:52Z",
+      "commit_sha": "a3b9ec19b29198a645b7ed269d0fc5bd939aa7f8",
+      "covered_percent": 89.764,
+      "branch": "update-pre-release",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-08-19T11:12:41Z",
+      "commit_sha": "a9645dbc0249a3d1e477e0b81821beac3fe4debd",
+      "covered_percent": 90.163,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-08-14T20:47:56Z",
+      "commit_sha": "f78d3157f0048c4d9068aa6ab88e676d96d651ea",
+      "covered_percent": 90.163,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-07-07T01:10:29Z",
+      "commit_sha": "69581d83ccf37f6e5008ec876d6370af023a2685",
+      "covered_percent": 90.158,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-07-07T00:56:23Z",
+      "commit_sha": "31e69b220a7ce710cc5cfd5d752228414ce80c88",
+      "covered_percent": 90.158,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-05-16T18:58:28Z",
+      "commit_sha": "77a18f00653f35e638fa5b217b224c58b08f8ac0",
+      "covered_percent": 90.175,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-05-16T14:51:14Z",
+      "commit_sha": "005b4b1c28b5e2418874c5f43156ccd85edb367b",
+      "covered_percent": 90.182,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-05-08T14:31:11Z",
+      "commit_sha": "193e4531eab716c1d78ecdb0db92128f0fcbd35d",
+      "covered_percent": 90.176,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-05-07T21:28:56Z",
+      "commit_sha": "063713e8755aab8e6847ce0faacd0a5b49d3e1ff",
+      "covered_percent": 90.18,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-04-18T13:20:39Z",
+      "commit_sha": "0df313bef62d5fedc18286b80fc93248b5f180fd",
+      "covered_percent": 90.182,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2019-04-16T11:20:29Z",
+      "commit_sha": "53d9c7fbfbe9cbd7e11cb872ef87e00462fa3eca",
+      "covered_percent": 90.183,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-04-09T19:05:06Z",
+      "commit_sha": "a041b19ddf64d16d03e68b665a29a58c51fc0099",
+      "covered_percent": 90.175,
+      "branch": "bug-MATH-1477",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-04-05T13:40:26Z",
+      "commit_sha": "286ab7c6dd4c4aae0b0290517ea3508487438d01",
+      "covered_percent": 90.177,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-02-15T11:18:21Z",
+      "commit_sha": "f3719d89ab6a928e8618bbe6a7da8214d9d6eb07",
+      "covered_percent": 90.168,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-01-28T08:25:13Z",
+      "commit_sha": "67cc425aa5a6df0c29d87c1c08c4fc525865cbb9",
+      "covered_percent": 90.177,
+      "branch": "StringTokenizer_bugfix",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2019-01-25T09:20:26Z",
+      "commit_sha": "5564e41c79fa1ef730e0e5e1ec92c8063da449f2",
+      "covered_percent": 90.17,
+      "branch": "bug_fix",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-12-11T02:17:10Z",
+      "commit_sha": "d7d4e4df72cc14998ff82a936e8a8de10931e5af",
+      "covered_percent": 90.17,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-11-17T14:51:31Z",
+      "commit_sha": "45371c672a37bae7399400b6353526ceb2293710",
+      "covered_percent": 90.032,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-11-17T14:41:59Z",
+      "commit_sha": "c6184137237e4a41e7615423b75a7a47f89d904a",
+      "covered_percent": 90.035,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-11-17T14:41:05Z",
+      "commit_sha": "417324e1d525ed9cc5634bd4ed6cece8ab5277b1",
+      "covered_percent": 90.027,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2018-10-27T00:36:14Z",
+      "commit_sha": "e2bdb1466a57d3e6ce4b8bfc897b3d07ae54f61f",
+      "covered_percent": 90.028,
+      "branch": "jdicker-patch-1",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-10-16T01:09:55Z",
+      "commit_sha": "7b64b3d813a885a0f65c244385a1af4918e49cf4",
+      "covered_percent": 90.035,
+      "branch": "patch-1",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-10-12T14:53:24Z",
+      "commit_sha": "b2638b396b0e189d0b34fd516ddb6dc247d47896",
+      "covered_percent": 90.035,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-09-25T14:22:25Z",
+      "commit_sha": "545a9d4c721b9a5a82e48795e9ea120652626262",
+      "covered_percent": 90.027,
+      "branch": "patch-2",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-09-17T12:28:54Z",
+      "commit_sha": "04d8bab4acad08f3b0353abeb4811005be4bc59e",
+      "covered_percent": 90.027,
+      "branch": "patch-1",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-08-29T01:59:08Z",
+      "commit_sha": "34bd1707749c71302207fb2fc0559b6ca301d895",
+      "covered_percent": 90.025,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-08-29T00:24:22Z",
+      "commit_sha": "efb0230063b31d53bd077d9f6a4bb64fcbb9c97f",
+      "covered_percent": 90.029,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-07-29T21:17:22Z",
+      "commit_sha": "7c4eb0bcc012b16146a6b086d57990e70da83d0a",
+      "covered_percent": 89.992,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-06-28T18:54:41Z",
+      "commit_sha": "3f14ed49d9102c3ccc392a99a3b51e652676e7d6",
+      "covered_percent": 90.037,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-06-16T21:57:13Z",
+      "commit_sha": "eb57d6d457002a0bb5336d789a3381a24599affe",
+      "covered_percent": 89.984,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2018-06-12T13:21:52Z",
+      "commit_sha": "00a0c6cb866b01c0d48debae0faf884038279144",
+      "covered_percent": 89.984,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-06-11T21:40:42Z",
+      "commit_sha": "e37de249b1d2a7f9ea6e99332ff05c116006a5bf",
+      "covered_percent": 89.991,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-05-17T17:31:29Z",
+      "commit_sha": "5b989c207cf08bcba9498a73788ec0a2bd7f239a",
+      "covered_percent": 89.984,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-05-16T15:01:38Z",
+      "commit_sha": "3a03e2a6316ac27eb187ee39562bb5977a3c058e",
+      "covered_percent": 89.982,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-05-15T20:48:50Z",
+      "commit_sha": "4b6d1b831ddd15d106770019d23b6e9e76c2782e",
+      "covered_percent": 89.991,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-05-15T20:47:31Z",
+      "commit_sha": "74f63233e898fcfc77e905c0c1dc560cd8439276",
+      "covered_percent": 89.984,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-05-15T19:08:22Z",
+      "commit_sha": "f9499be20e1d4801b199eeb2bdc6c553f8b072f3",
+      "covered_percent": 90.024,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-05-08T16:00:03Z",
+      "commit_sha": "36553ffab375518a8ce39b25a916f730775435a4",
+      "covered_percent": 90.024,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-05-08T12:30:40Z",
+      "commit_sha": "85b6a97f90c7be730db3b783610b38c8c15e5a46",
+      "covered_percent": 90.021,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-05-08T10:10:47Z",
+      "commit_sha": "c319caaf913d9ad6fc42b1289d5740f1901e4034",
+      "covered_percent": 90.023,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2018-05-03T21:53:25Z",
+      "commit_sha": "6918bda19087bdc3dcb61b3e09d5936a8b6973d9",
+      "covered_percent": 89.974,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-05-03T21:39:25Z",
+      "commit_sha": "4e2e26cb3a4fb147fbbb77b51911093fdc7a0177",
+      "covered_percent": 89.97,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-05-02T18:17:56Z",
+      "commit_sha": "f43069ac6d281b8367dad6f78def4b8336a11ff0",
+      "covered_percent": 90.012,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-05-01T18:18:45Z",
+      "commit_sha": "6f4b2285eeadaf7d249ed624e8611a1865d508d4",
+      "covered_percent": 89.972,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-03-31T00:51:35Z",
+      "commit_sha": "d9b0be1c9a8e9c0e34220d38276c5b449a06be54",
+      "covered_percent": 90.019,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-03-18T01:31:39Z",
+      "commit_sha": "c5512b7d690ea77775de3790b1760a62540e06bc",
+      "covered_percent": 90.012,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-03-18T00:54:40Z",
+      "commit_sha": "b048757035a1196a825113ca6e676bd439e4d46f",
+      "covered_percent": 90.016,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-02-28T03:06:10Z",
+      "commit_sha": "939e9f1d63f13347d64848d937cee8638132a5ea",
+      "covered_percent": 90.021,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-02-28T02:55:20Z",
+      "commit_sha": "583d9ec8647a7f667bb8f22cecf9859187149ade",
+      "covered_percent": 90.014,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-02-15T10:16:15Z",
+      "commit_sha": "c965f1c7fca41baf313e2234c6328f4082fe9ab2",
+      "covered_percent": 90.05,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2018-02-15T02:00:46Z",
+      "commit_sha": "9f086833b9d7ba8da08bb54df0340d52d670735f",
+      "covered_percent": 90.04,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-02-11T04:59:07Z",
+      "commit_sha": "491c68fcd97030e3645c7a16305c21a050dd7a23",
+      "covered_percent": 90.043,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-02-07T00:08:57Z",
+      "commit_sha": "cfe0502990a1e61d5ae7c744b119e8c330c37c0c",
+      "covered_percent": 90.05,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-02-06T02:13:07Z",
+      "commit_sha": "654444ac4001a75d94630749c23624eeeaad7c31",
+      "covered_percent": 90.05,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-02-04T19:31:59Z",
+      "commit_sha": "f06d7e508aa1986aa19fa5ccf840cce4bc7a6ad9",
+      "covered_percent": 90.05,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-02-02T17:01:31Z",
+      "commit_sha": "a37dcb93bed20ee302526473a9653f6cb5ae51a1",
+      "covered_percent": 90.05,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-02-02T16:17:06Z",
+      "commit_sha": "036a2cae2590299505763092ed3b6ec8432cb1a8",
+      "covered_percent": 90.049,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-02-02T05:17:49Z",
+      "commit_sha": "d2d4445666a83b22743c3f74e203cfe0b48cc44d",
+      "covered_percent": 90.04,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-02-02T04:16:42Z",
+      "commit_sha": "e52335bf362f7418b628defbf9ab31611de76b1e",
+      "covered_percent": 90.047,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-02-01T09:11:38Z",
+      "commit_sha": "c6b2af4a86bb59c96c029a6bd8095013639d7e62",
+      "covered_percent": 89.38,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2018-01-26T23:49:45Z",
+      "commit_sha": "60bcdd450d6950da981d70b8b08379bdd744c82d",
+      "covered_percent": 90.049,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-01-26T17:07:31Z",
+      "commit_sha": "1f07a0bf70049cb0a2f6b52ea7c261da5adb1abb",
+      "covered_percent": 90.043,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-01-26T12:12:58Z",
+      "commit_sha": "54fa0a855e549ae2a9f8445d71cbd01e8377e353",
+      "covered_percent": 90.038,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-01-26T03:57:49Z",
+      "commit_sha": "21d116c91f9d4646d5c1f9e62d585cdf7ac0d6ef",
+      "covered_percent": 90.049,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-01-26T02:24:04Z",
+      "commit_sha": "db93897608ffbddd3af9e8ea3221d454adecb8ee",
+      "covered_percent": 89.976,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-01-26T01:29:51Z",
+      "commit_sha": "3ea45970dbe94643fb57ce7713dc1c624526853b",
+      "covered_percent": 89.978,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-01-25T19:23:09Z",
+      "commit_sha": "e4a613ffe00e331c089f4f47f27f8a559cec809c",
+      "covered_percent": 89.964,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-01-25T04:29:46Z",
+      "commit_sha": "08a16c3fab3347d60e8d8bd831df80e239f3e182",
+      "covered_percent": 90.055,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-01-24T04:16:03Z",
+      "commit_sha": "37682924fd5f9272b8d8577fb81e629a15496e2c",
+      "covered_percent": 90.064,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2018-01-21T06:13:34Z",
+      "commit_sha": "06b569d79d656730aa89dca31a9650dbf44e8621",
+      "covered_percent": 90.046,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2017-12-25T09:56:01Z",
+      "commit_sha": "c48d7c40cfe407c539c8af8f901816f3658f67e4",
+      "covered_percent": 90.044,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-12-23T19:30:21Z",
+      "commit_sha": "5dae980154b5ce9630f0049e3d1295f3d2ac98fc",
+      "covered_percent": 90.036,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-12-23T19:28:08Z",
+      "commit_sha": "c8a91ec9058cb2ab57137031cf3a863703dbbc17",
+      "covered_percent": 89.966,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-12-20T03:52:19Z",
+      "commit_sha": "795e671f71b6b32ab892f77f05be5833ec52cc60",
+      "covered_percent": 90.048,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-10-13T22:58:22Z",
+      "commit_sha": "e85b5d3e048d0d5897b19584a01e663c29144d81",
+      "covered_percent": 89.963,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-10-10T08:05:37Z",
+      "commit_sha": "0d3e2a6e2e7f76069dee764a7096adcf6f7fcc6a",
+      "covered_percent": 89.954,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-10-09T22:17:49Z",
+      "commit_sha": "41037710be9e98f1d9adb5a25db4acc2f90dbdb4",
+      "covered_percent": 89.963,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-10-09T16:30:29Z",
+      "commit_sha": "84d20da06046de530eed834f91541b277245b41c",
+      "covered_percent": 89.961,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-10-09T16:25:28Z",
+      "commit_sha": "382e95e800b3b1866297854e600031268ed08656",
+      "covered_percent": 89.963,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-10-09T16:17:22Z",
+      "commit_sha": "691bb851fbba39ab5ce124756d20dc284c937d7d",
+      "covered_percent": 89.963,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2017-10-09T16:14:55Z",
+      "commit_sha": "295085f39ca906d039ca9d6ff2f59806a4135794",
+      "covered_percent": 89.961,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-10-09T16:13:30Z",
+      "commit_sha": "8c16325b509a48f139278b0f303c8c04cfcb1dee",
+      "covered_percent": 89.956,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-10-09T15:59:21Z",
+      "commit_sha": "4e94e15a9da25bc7f667ab6fe7b2799daf8f0928",
+      "covered_percent": 89.961,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-09-16T21:26:27Z",
+      "commit_sha": "8a8650f80f8638e008131ceae517b8918b981531",
+      "covered_percent": 90.012,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-09-16T19:08:11Z",
+      "commit_sha": "50f1d9e88c014296485fdc8970f00180c0517ede",
+      "covered_percent": 89.948,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-09-16T17:52:24Z",
+      "commit_sha": "eafb16c711d5cd79edad5fbb2055252acdb3825e",
+      "covered_percent": 89.963,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-08-16T14:15:11Z",
+      "commit_sha": "34886092d926da89e7040547d48cd3891e51595b",
+      "covered_percent": 89.944,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-08-16T13:33:24Z",
+      "commit_sha": "13e0ba5aff3fe14eb0e1d748cad4b9f99e681ca0",
+      "covered_percent": 89.944,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-08-16T12:54:52Z",
+      "commit_sha": "2c6e3404bc72e76b2e9d308121368f09b723c8df",
+      "covered_percent": 89.937,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-08-15T00:43:31Z",
+      "commit_sha": "eed46beefb0152b0579e2631877c864bb3216e0c",
+      "covered_percent": 89.94,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2017-08-10T01:17:02Z",
+      "commit_sha": "333a32488ffe73ef9f82f6f359d344bb190b0759",
+      "covered_percent": 89.938,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-08-09T23:49:50Z",
+      "commit_sha": "1e139db440205db0b25e10ed0e324ae37b6e5bf8",
+      "covered_percent": 89.94,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-08-09T12:46:46Z",
+      "commit_sha": "dcaed2dc2838cfbb05d4bb783c5740668e659262",
+      "covered_percent": 89.947,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-08-04T16:37:46Z",
+      "commit_sha": "a522a979ca3307755912a5274d239ce7c58a70eb",
+      "covered_percent": 89.94,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-08-04T15:13:46Z",
+      "commit_sha": "ff2d2ca248db78dbd5468701b38d1e18a2468061",
+      "covered_percent": 89.939,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-08-04T14:51:58Z",
+      "commit_sha": "c68a38dfc385ca1b0e448e875554e806a6f25855",
+      "covered_percent": 89.938,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-08-04T10:27:08Z",
+      "commit_sha": "1431a91d9c2cae1fdfc78b5df31d4d85d38aae17",
+      "covered_percent": 89.947,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-07-27T17:41:12Z",
+      "commit_sha": "4debbf6ed343382ac1140ecbcfac434175d2a6aa",
+      "covered_percent": 89.933,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-07-22T00:28:52Z",
+      "commit_sha": "e1f30a1c32eb292e51db274adbe2fd6ed09b555b",
+      "covered_percent": 89.946,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-07-18T11:19:06Z",
+      "commit_sha": "f940239fd23915d14efaf313bffa09a69824cb9e",
+      "covered_percent": 89.952,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2017-07-16T16:55:13Z",
+      "commit_sha": "f934092f917d1ccddc44e6abcb22acc82e8e12a9",
+      "covered_percent": 89.94,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-07-16T15:02:09Z",
+      "commit_sha": "e9d42933c00ee510c7252600617ab89ef4a8403a",
+      "covered_percent": 89.94,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-07-16T09:46:45Z",
+      "commit_sha": "b64179cb63bed4368f1437d9bbf8f3053a29e7bf",
+      "covered_percent": 89.94,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-06-22T01:26:32Z",
+      "commit_sha": "612a04d6b0ff8fa3060d5e943f4f72968ea71700",
+      "covered_percent": 89.959,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-06-21T11:02:09Z",
+      "commit_sha": "f4c7bdac00dd0f324d7ceab451cada88beefa09d",
+      "covered_percent": 89.952,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-06-15T14:21:12Z",
+      "commit_sha": "777af155a678286614d261887790352b43fa7c2a",
+      "covered_percent": 89.957,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-06-03T00:42:23Z",
+      "commit_sha": "6f27b4ae8f8ecb62698e760ab7df3973874b1f51",
+      "covered_percent": 89.952,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-29T00:41:25Z",
+      "commit_sha": "d9979fa97865b7a57b9da975efb6e6c4d80b0cc8",
+      "covered_percent": 89.959,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-28T00:05:40Z",
+      "commit_sha": "8b129cc4bde16f840e4f5df1518c4000932be8fc",
+      "covered_percent": 89.948,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-27T14:47:25Z",
+      "commit_sha": "673ff98e9db0d40a76e98f5e18bb7e516f9a3b0e",
+      "covered_percent": 89.953,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2017-05-25T00:13:26Z",
+      "commit_sha": "4a37273818d2d7fe684136e84511e4e46e6cb1b0",
+      "covered_percent": 89.957,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-21T23:39:42Z",
+      "commit_sha": "97dc91d1545a667b4021b6507d927799e53964da",
+      "covered_percent": 89.987,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-21T03:03:40Z",
+      "commit_sha": "96c8597c0f6eba2252bae4107ddacabeaf2be0e6",
+      "covered_percent": 90.026,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-14T23:24:50Z",
+      "commit_sha": "b81be1fea344c07c3024011066f0c8bb8865cc65",
+      "covered_percent": 90.004,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-14T21:41:37Z",
+      "commit_sha": "44ab256961029c9e104e70fb804617fd582412cd",
+      "covered_percent": 90.021,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-14T10:48:47Z",
+      "commit_sha": "b8d0bbe2b5d932e30a3af49fe9139632717319d5",
+      "covered_percent": 90.054,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-13T19:31:09Z",
+      "commit_sha": "e3eff1e3a426f8931ad23a3d7a7e790adabe9f48",
+      "covered_percent": 90.058,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-13T14:49:35Z",
+      "commit_sha": "cec35baf0b18c80fa66bd585adfed9ff8c091c59",
+      "covered_percent": 90.074,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-12T22:15:36Z",
+      "commit_sha": "44b2b2c1b465113bb1718e864dd928d1eaeb13de",
+      "covered_percent": 90.067,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-10T13:47:19Z",
+      "commit_sha": "bf915848967a6e35839e5565e98c716079980e18",
+      "covered_percent": 90.095,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2017-05-10T09:21:52Z",
+      "commit_sha": "5d87a8895298058c573d39f6c482a80a84919ff3",
+      "covered_percent": 90.089,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-10T09:01:58Z",
+      "commit_sha": "1b80dc49658ce86375c6c3fd089d7dcd176f4ad8",
+      "covered_percent": 90.096,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-10T08:07:35Z",
+      "commit_sha": "60fdd5f3a6313484239e6b0eae0ee75ae89bd6a3",
+      "covered_percent": 90.089,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-09T19:41:34Z",
+      "commit_sha": "ed1ce82d822ffe185875b7b7d38352f20171c096",
+      "covered_percent": 90.098,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-09T16:07:32Z",
+      "commit_sha": "7a7b390528781731f2c35807f076776cd9565ed4",
+      "covered_percent": 90.105,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-09T15:46:32Z",
+      "commit_sha": "ae41a228828f6dbb358b8e9e78414ea497bfd89f",
+      "covered_percent": 90.101,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-09T15:44:31Z",
+      "commit_sha": "273b353bf004e4c6108de3e97c327b9ec418d20f",
+      "covered_percent": 90.107,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-09T15:30:53Z",
+      "commit_sha": "9c1c9ab1bf99cc36778652541afd9b530fb63b40",
+      "covered_percent": 90.101,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-09T14:49:49Z",
+      "commit_sha": "6b95a3a87c02dd49953262e61ccf694c52474a3f",
+      "covered_percent": 90.105,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-09T14:26:35Z",
+      "commit_sha": "57e3daac9dede1a7d5b8559471818b045c1b44f2",
+      "covered_percent": 90.107,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2017-05-09T12:38:09Z",
+      "commit_sha": "a849d866e92c6d0e773888cea56c15f82aebab02",
+      "covered_percent": 90.107,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-09T03:39:35Z",
+      "commit_sha": "20403f09bfe6f06626cd1253042b848e38f038fd",
+      "covered_percent": 90.101,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-09T03:15:14Z",
+      "commit_sha": "f5b5a8b0bcb9c2e5ac12d757892854a890c3ab85",
+      "covered_percent": 90.105,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-07T16:55:10Z",
+      "commit_sha": "8e83c65b02d479080f0f97350f1e3e6ab7126e4a",
+      "covered_percent": 90.107,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-07T12:27:02Z",
+      "commit_sha": "cdf22ce631b94fda1cdd053e2d1ec9648f0cd124",
+      "covered_percent": 90.098,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-07T12:07:36Z",
+      "commit_sha": "52ddc9d353a9254be65efa55ae4a01dfeaa2340a",
+      "covered_percent": 90.091,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-07T08:54:26Z",
+      "commit_sha": "24393fd2c9f63a17612fd845e3841e33e33837a1",
+      "covered_percent": 90.087,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-06T15:59:41Z",
+      "commit_sha": "7b8e00e4d3362534cdd9aafdc4dc873ce2c1c03e",
+      "covered_percent": 90.091,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-04T00:32:25Z",
+      "commit_sha": "35e0ba449325e759e04203fcaa71920cf473baef",
+      "covered_percent": 90.103,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-03T23:36:13Z",
+      "commit_sha": "e082e0c48ed611ce3aca949cb47d0e96c35788ef",
+      "covered_percent": 90.143,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2017-05-03T22:22:07Z",
+      "commit_sha": "cc26f76ad1e02bc157066d1903aae9214ad34702",
+      "covered_percent": 90.163,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-05-01T23:29:52Z",
+      "commit_sha": "dff1a0953d97d46290750a46d01be1e1519ae698",
+      "covered_percent": 90.156,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-04-28T22:47:47Z",
+      "commit_sha": "b645f5d085f121ae82e480491a58a8d7753a34d0",
+      "covered_percent": 90.16,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-04-25T23:05:34Z",
+      "commit_sha": "b645f5d085f121ae82e480491a58a8d7753a34d0",
+      "covered_percent": 90.163,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-04-16T22:49:58Z",
+      "commit_sha": "12eb20d3b5785dac0ed5e91e912d32a485c4d030",
+      "covered_percent": 90.175,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-04-13T11:51:09Z",
+      "commit_sha": "94e4fd7e4e4d96132fbbf2a1662949f58ac14e71",
+      "covered_percent": 90.153,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-04-02T20:08:37Z",
+      "commit_sha": "19e0e29908fef67a0890f6a8513494e9963b2ae0",
+      "covered_percent": 90.158,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-03-08T13:13:27Z",
+      "commit_sha": "c68c893e100235c84063fd7a4b25a37e1efee2be",
+      "covered_percent": 90.141,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-03-07T18:58:46Z",
+      "commit_sha": "08cbacf7e413bd0b2e015495b673da88c7474b1b",
+      "covered_percent": 90.182,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-02-25T20:24:48Z",
+      "commit_sha": "843267df5a0b44145d5b9ee9153d17aa5e15cce1",
+      "covered_percent": 90.175,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2017-02-10T03:38:59Z",
+      "commit_sha": "3dfc091defed437432872a89f16eb0991bf4ca6f",
+      "covered_percent": 90.173,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-02-09T14:57:59Z",
+      "commit_sha": "fa2ca07273b103024dfb7b36a41353784972f9fd",
+      "covered_percent": 90.146,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2017-01-02T16:43:54Z",
+      "commit_sha": "f2cff07cb9334433af3bbb598ee6aa7d368dfde7",
+      "covered_percent": 90.182,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-12-24T18:35:35Z",
+      "commit_sha": "d4ea4887fb7c4161baaca242c0f98d46c982816d",
+      "covered_percent": 90.147,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-12-24T04:16:05Z",
+      "commit_sha": "12015284e6ac5a85c331528c14dc89ce8ab1a18c",
+      "covered_percent": 90.167,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-12-24T03:22:13Z",
+      "commit_sha": "62f477068aa085031343ae84ec32666171eed19d",
+      "covered_percent": 90.178,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-12-14T16:51:59Z",
+      "commit_sha": "657b1b49da5ea1593dd7f950eae99a88a8ada87a",
+      "covered_percent": 90.173,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-12-13T10:12:44Z",
+      "commit_sha": "5c753a87c328678f16bf89e0178448f04194f0b4",
+      "covered_percent": 90.149,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-12-13T08:12:47Z",
+      "commit_sha": "b1d38d9bf25d715d2eca86876baa360a2df356d3",
+      "covered_percent": 90.149,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-11-10T16:02:17Z",
+      "commit_sha": "a789857a891c0352ce8951aeb833e58f26816fd1",
+      "covered_percent": 90.014,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2016-11-10T15:57:34Z",
+      "commit_sha": "a2ee79bb79c9aa38eaeec34f1c39ae6c268a0e55",
+      "covered_percent": 90.008,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-10-09T20:46:19Z",
+      "commit_sha": "f672e826f51824582273fa1f5b6ec37aa5fdb2fd",
+      "covered_percent": 90.042,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-10-09T20:31:47Z",
+      "commit_sha": "337f5f1fa654ba0d538675a68133c5dbdbbde459",
+      "covered_percent": 90.015,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-10-09T20:19:38Z",
+      "commit_sha": "ffae3916c9a627e1fc3e91a6e16e1b1328c2a7b0",
+      "covered_percent": 90.006,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-10-09T20:10:28Z",
+      "commit_sha": "a6bde9aee9e1f87b4db0b2f2c82e617f06c04ef9",
+      "covered_percent": 90.008,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-01-18T22:40:05Z",
+      "commit_sha": "0952cee3500b168331c08b1de80cfc3202d87068",
+      "covered_percent": 90.436,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-01-17T10:50:10Z",
+      "commit_sha": "9d4fb495265055724c2dfc2efa05460ee36fc2cf",
+      "covered_percent": 90.443,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-01-12T18:49:10Z",
+      "commit_sha": "4742149a8d979f3d97d846f90774460f41184104",
+      "covered_percent": 90.435,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-01-12T12:17:53Z",
+      "commit_sha": "d749b2e76f3c14d0f2df52706d12f1156320640f",
+      "covered_percent": 90.435,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-01-11T22:15:32Z",
+      "commit_sha": "2df0a3be66f6fa1067d976d7a05500beff7eda53",
+      "covered_percent": 90.442,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2016-01-08T19:39:33Z",
+      "commit_sha": "4f36d50c6c496d8e0c62b138dab7393fe83c19ba",
+      "covered_percent": 90.441,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-01-06T15:00:35Z",
+      "commit_sha": "e76bf903a268c242011618730cba7a7bae8d380c",
+      "covered_percent": 90.435,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-01-05T22:12:01Z",
+      "commit_sha": "7e1c299da29a3e8f7a5f3feab5c69fe46f61ec27",
+      "covered_percent": 90.174,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-01-02T20:48:37Z",
+      "commit_sha": "bd557f1b8bbb8c9603d6edf642a8db4c4c8db21b",
+      "covered_percent": 90.181,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-01-02T17:37:43Z",
+      "commit_sha": "75676e5d4e295faf4217932223892e8808f8f873",
+      "covered_percent": 90.181,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-01-01T22:23:33Z",
+      "commit_sha": "8a8ca83f25bffb9927f67469f2230ed0067d1256",
+      "covered_percent": 90.174,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-01-01T20:31:43Z",
+      "commit_sha": "a614e852048ecda642ef1de00ce80a3193bae9e0",
+      "covered_percent": 90.174,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-01-01T19:07:51Z",
+      "commit_sha": "41b21f83d91e30fa5e679c071f5e7ec9240781be",
+      "covered_percent": 90.181,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-01-01T15:58:33Z",
+      "commit_sha": "d7e7b226d87bae7d71072802dfca8b80b55fea19",
+      "covered_percent": 90.174,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2016-01-01T13:24:30Z",
+      "commit_sha": "953c23242b0d84dd7802dbbc2c457b897d832537",
+      "covered_percent": 90.181,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2015-12-31T23:37:07Z",
+      "commit_sha": "3e5c248f739b7978c057b0fbd3d0117f4bc2302c",
+      "covered_percent": 90.181,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-31T22:25:02Z",
+      "commit_sha": "dcd8015fa6baefaa9ca3d6c9bd792c7f0bde08ac",
+      "covered_percent": 90.181,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-31T00:43:36Z",
+      "commit_sha": "2fcfce303989ae14b5b51f4c9fc92e97bc540ba8",
+      "covered_percent": 90.182,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-29T19:38:03Z",
+      "commit_sha": "a4eff51bedd73a0ea56afc23b1021187dd03561b",
+      "covered_percent": 90.175,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-29T19:34:27Z",
+      "commit_sha": "a71c820baeb91025eaa7f07b172a39500c6f5692",
+      "covered_percent": 90.182,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-29T19:28:18Z",
+      "commit_sha": "e779883b29a67d411493f985de984ffb8088ca05",
+      "covered_percent": 90.182,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-29T18:59:48Z",
+      "commit_sha": "fb83ba3fdb46537a36832a900f124d4c400f7ed9",
+      "covered_percent": 90.182,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-29T00:58:55Z",
+      "commit_sha": "d1123894d33922e7c8ca838f9dac9bdceefa3f7a",
+      "covered_percent": 90.182,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-28T21:20:44Z",
+      "commit_sha": "8bcf7e23a62878d1efe3bbc1c57287d25d161bab",
+      "covered_percent": 90.182,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-28T20:08:11Z",
+      "commit_sha": "f0943a7242041a16c8f7fca845592e48bb19ac74",
+      "covered_percent": 90.182,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2015-12-28T17:29:47Z",
+      "commit_sha": "81585a3c46bb05e86e11d88ba25d14b90d488577",
+      "covered_percent": 90.18,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-28T15:37:51Z",
+      "commit_sha": "7b62d0155efebb2748918a5e4f67ac0ee2e759da",
+      "covered_percent": 90.183,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-27T23:52:03Z",
+      "commit_sha": "6b5d0732518dd073d58845ada585e88e13739c4e",
+      "covered_percent": 90.183,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-27T23:07:26Z",
+      "commit_sha": "75da8c1c9584aa9a5f1962186ee9f7c320456bd3",
+      "covered_percent": 90.183,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-27T22:29:17Z",
+      "commit_sha": "c7f7da754a911302dcaa6935be6fded84e1ac348",
+      "covered_percent": 90.237,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-27T12:48:58Z",
+      "commit_sha": "564345179f3f33d249daca36f0054773996d5782",
+      "covered_percent": 90.232,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-26T23:36:53Z",
+      "commit_sha": "9ce4e1a371418e5eacc69227885815f9a4221c65",
+      "covered_percent": 90.173,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-26T23:35:37Z",
+      "commit_sha": "763dfdfe8934b4ee9e6be9e6103e1c0437192754",
+      "covered_percent": 90.163,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-26T20:38:05Z",
+      "commit_sha": "a7294ccd794d2d3f55b67b75b9798de151451fb8",
+      "covered_percent": 90.17,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-26T16:47:37Z",
+      "commit_sha": "afa12022716391a9faa574b43d5e75b7f7f4f958",
+      "covered_percent": 90.12,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2015-12-25T23:03:09Z",
+      "commit_sha": "ab7fd6c92a05dbd20e874f7ee23c452218f09280",
+      "covered_percent": 90.111,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-25T16:26:12Z",
+      "commit_sha": "4ebd5b61720a680e8507f0a4f1eebf0d654e8e09",
+      "covered_percent": 90.118,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-25T12:28:19Z",
+      "commit_sha": "dd9cb37df54a3016e8efb283732012ae14bea1cf",
+      "covered_percent": 90.113,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-25T11:19:17Z",
+      "commit_sha": "030b9a7234812154b67d1145a435efc34d102465",
+      "covered_percent": 90.12,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-24T22:26:40Z",
+      "commit_sha": "bf803b119be94bfd71902ea5db06075aada82672",
+      "covered_percent": 90.121,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-24T17:37:15Z",
+      "commit_sha": "9a87c766bb3137a50656871e5dee5a309543bc7d",
+      "covered_percent": 90.178,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-21T12:46:56Z",
+      "commit_sha": "7d919fc8cc0bee4aa9964b7b5b7ec6b002d51287",
+      "covered_percent": 90.109,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-21T02:28:05Z",
+      "commit_sha": "88b29fa46bcf6f56df4213e1ba7810735a28d755",
+      "covered_percent": 90.102,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-21T00:36:51Z",
+      "commit_sha": "813aa11d505b9507b6795d36070806cb2d96e5c2",
+      "covered_percent": 90.11,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-20T16:26:04Z",
+      "commit_sha": "a4a62ed7c1e3c7aae09324f0ad1c6078f0fba471",
+      "covered_percent": 90.174,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ],
+  [
+    {
+      "created_at": "2015-12-20T15:07:28Z",
+      "commit_sha": "2bfd81a2b1b777e252ba76f7363bb9ba8e4ac707",
+      "covered_percent": 90.174,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-18T20:24:25Z",
+      "commit_sha": "99c936f09f472eca6e1a25e4f34eef30a3ad0217",
+      "covered_percent": 90.096,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-18T11:55:04Z",
+      "commit_sha": "5566a21d2b34090d1ce8129f41b551a1187e7d5b",
+      "covered_percent": 90.178,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-15T18:53:34Z",
+      "commit_sha": "abb2057959377f26664bf4f8a2b4aea9422c1092",
+      "covered_percent": 90.168,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-15T16:47:35Z",
+      "commit_sha": "e5d0f74a47eabee1b079eb47f622b42adb0885a4",
+      "covered_percent": 90.103,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-09T22:54:49Z",
+      "commit_sha": "a6a4bd1fc9dea3da387973882ee87d81179e7729",
+      "covered_percent": 90.1,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-03T03:42:21Z",
+      "commit_sha": "b2627daccef8f41e83649d085268dc247b3fbb3f",
+      "covered_percent": 90.096,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    },
+    {
+      "created_at": "2015-12-02T20:29:07Z",
+      "commit_sha": "9085dfacc0e84ed1fbe4e961563cdfffbca42e10",
+      "covered_percent": 90.103,
+      "branch": "master",
+      "repository_name": "apache/commons-math"
+    }
+  ]
+]
