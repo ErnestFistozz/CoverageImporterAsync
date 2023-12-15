@@ -45,9 +45,9 @@ class CodeCovCoverage(BaseCoverage):
                         {
                             'created_at': Utils.date_formatter(build['timestamp']),
                             'commit_sha': build['commitid'],
-                            'covered_percent': round(build['totals']['coverage'], 3),
+                            'repository_name': f'{self.organisation}/{self.repository}',
                             'branch': build['branch'],
-                            'repository_name': f'{self.organisation}/{self.repository}'
+                            'coverage': round(build['totals']['coverage'], 3)
                         }
                         for build in (await res.json()).get('results', [])
                     ]

@@ -58,9 +58,10 @@ class CoverallsCoverage(BaseCoverage):
                         {
                             'created_at': Utils.date_formatter(build['created_at']),
                             'commit_sha': build['commit_sha'],
-                            'covered_percent': round(build['covered_percent'], 3),
+                            'repository_name': build['repo_name'],
                             'branch': build['branch'],
-                            'repository_name': build['repo_name']
+                            'coverage': round(build['covered_percent'], 3)
+
                         }
                         for build in (await res.json()).get('builds', [])
                     ]
