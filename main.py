@@ -8,8 +8,7 @@ import os
 def save_into_file(filename: str, data: list) -> None:
     try:
         with open(filename, 'a+', newline="") as file:
-            if not os.path.exists(filename):
-                writer = csv.DictWriter(file, fieldnames=data[0].keys())
+            writer = csv.DictWriter(file, fieldnames=data[0].keys())
             for row in data:
                 writer.writerow(row)
     except Exception as e:
