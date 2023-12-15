@@ -1,7 +1,7 @@
 import asyncio
 from pydriller import Repository
-from codecov import CodeCovCoverage
-from coveralls import CoverallsCoverage
+from src.codecov import CodeCovCoverage
+from src.coveralls import CoverallsCoverage
 from utils import Utils
 from patch_extracts import PatchExtracts
 from crap_metric import CrapMetric
