@@ -59,7 +59,7 @@ class CoverageImporter:
         for build in builds:
             try:
                 async with asyncio.Lock():
-                    await self.checkout_and_analyse_coveralls_commit(build, build['commit_sha'])
+                    await self.checkout_and_analyse_coveralls_commit(build, coveralls)
                     modified_builds.append(build)
             except Exception as err:
                 build_commit = build['commit_sha']
