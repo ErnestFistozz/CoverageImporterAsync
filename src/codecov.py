@@ -2,6 +2,7 @@ import asyncio
 import aiohttp
 from src.basecoverage import BaseCoverage
 import json
+from src.utils import Utils
 
 class CodeCovCoverage(BaseCoverage):
 
@@ -42,10 +43,11 @@ class CodeCovCoverage(BaseCoverage):
                     res.raise_for_status()
                     return [
                         {
-                            'created_at': build['timestamp'],
+                            'created_at': Utils.date_formatter(build['timestamp']),
                             'commit_sha': build['commitid'],
                             'covered_percent': round(build['totals']['coverage'], 3),
-                            'branch': build['branch']
+                            'branch': build['branch'],
+                            'repository_name': f'{self.organisation}/{self.repository}'
                         }
                         for build in (await res.json()).get('results', [])
                     ]

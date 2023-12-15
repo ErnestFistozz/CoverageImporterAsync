@@ -3,6 +3,7 @@ import aiohttp
 from src.basecoverage import BaseCoverage
 import urllib3
 import json
+from src.utils import Utils
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -55,7 +56,7 @@ class CoverallsCoverage(BaseCoverage):
                             raise Exception
                     return [
                         {
-                            'created_at': build['created_at'],
+                            'created_at': Utils.date_formatter(build['created_at']),
                             'commit_sha': build['commit_sha'],
                             'covered_percent': round(build['covered_percent'], 3),
                             'branch': build['branch'],
