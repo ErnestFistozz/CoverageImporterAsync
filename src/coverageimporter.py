@@ -11,8 +11,8 @@ class CoverageImporter:
     async def checkout_and_analyse_coveralls_commit(self, build: dict, coveralls: CoverallsCoverage) -> None:
         repo_name = build['repository_name']
         git_url = 'https://github.com/{}.git'.format(repo_name)
-        for commit in Repository(git_url, single=build['commit_hash']).traverse_commits():
-            commit_files = await coveralls.fetch_source_files(build['commit_hash'])
+        for commit in Repository(git_url, single=build['commit_sha']).traverse_commits():
+            commit_files = await coveralls.fetch_source_files(build['commit_sha'])
             executable_lines = executed_lines = 0
             patch_extracts = PatchExtracts()
             if commit_files:
@@ -55,10 +55,15 @@ class CoverageImporter:
 
     async def analyze_commits(self, coveralls: CoverallsCoverage):
         builds = await coveralls.collect_builds_data()
+        modified_builds = []
         for build in builds:
             try:
                 async with asyncio.Lock():
-                    await self.checkout_and_analyse_coveralls_commit(build, build['commit_hash'])
+                    await self.checkout_and_analyse_coveralls_commit(build, build['commit_sha'])
+                    modified_builds.append(build)
             except Exception as err:
+                build_commit = build['commit_sha']
+                build_repo = build['repository_name']
+                print(f"Error checking out repo {build_repo} in commit-{build_commit} - error - {str(err)}")
                 continue
-        return builds
+        return modified_builds
