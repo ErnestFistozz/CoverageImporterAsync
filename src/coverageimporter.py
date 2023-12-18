@@ -109,12 +109,12 @@ class CoverageImporter:
                         executed_lines / executable_lines) * 100)
                 build['patch_coverage'] = round((executed_lines / executable_lines) * 100, 3)
 
-            build['api_patch_coverage'] = api_patch_coverage
-            build['dmm_unit_size'] = dmm_commit_size
-            build['dmm_unit_complexity'] = dmm_commit_complexity
-            build['dmm_unit_interface'] = dmm_commit_interface
-            build['dmm'] = delta_maintainibility_model
-            build['crap_metric'] = commit_crappiness
+            build['api_patch_coverage'] = round(api_patch_coverage, 3)
+            build['dmm_unit_size'] = round(dmm_commit_size, 3)
+            build['dmm_unit_complexity'] = round(dmm_commit_complexity, 3)
+            build['dmm_unit_interface'] = round(dmm_commit_interface, 3)
+            build['dmm'] = round(delta_maintainibility_model, 3)
+            build['crap_metric'] = round(commit_crappiness, 3)
 
     async def analyze_codecov_commits(self, codecov: CodeCovCoverage):
         builds = await codecov.collect_build_data()
