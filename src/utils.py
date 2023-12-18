@@ -1,10 +1,9 @@
 from datetime import datetime, timezone
 import csv
-import os
 import platform
-import pandas as pd
 import subprocess
 import logging
+
 
 class Utils:
     @staticmethod
@@ -60,3 +59,24 @@ class Utils:
                             level=logging.DEBUG,
                             datefmt='%m/%d/%Y %I:%M:%S %p')
         logging.error(error_message)
+
+    @staticmethod
+    def save_into_file(filename: str, data: list) -> None:
+        file_path = rf'{Utils.file_path()}/{filename}'
+        try:
+            with open(file_path, 'a+', newline="") as file:
+                writer = csv.DictWriter(file, fieldnames=data[0].keys())
+                for row in data:
+                    writer.writerow(row)
+        except Exception as e:
+            print(f"Error saving data to {file_path}: {str(e)}")
+
+    @staticmethod
+    def file_path() -> str:
+        match platform.system().lower():
+            case 'linux' | 'darwin':
+                return rf'/home/{Utils.determine_machine()}/repositories'
+            case 'windows':
+                return rf'C:\Users\{Utils.determine_machine()}\Desktop\AzureDevOpsRepos'
+
+
