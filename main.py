@@ -4,6 +4,7 @@ from src.coverageimporter import CoverageImporter
 from src.codecov import CodeCovCoverage
 import csv
 
+
 def save_into_file(filename: str, data: list) -> None:
     try:
         with open(filename, 'a+', newline="") as file:
@@ -28,5 +29,5 @@ if __name__ == '__main__':
     # coverage_importer.checkout_and_analyse_codecov_commit(codecov)
     # results = asyncio.get_event_loop().run_until_complete(codecov.collect_build_data())
     results = data = asyncio.get_event_loop().run_until_complete(
-                        coverage_importer.analyze_codecov_commits(codecov))
-    print(results)
+        coverage_importer.analyze_codecov_commits(codecov))
+    save_into_file('CodeCovAsyncResults.csv', results)
