@@ -47,7 +47,8 @@ class CodeCovCoverage(BaseCoverage):
                             'commit_sha': build['commitid'],
                             'repository_name': f'{self.organisation}/{self.repository}',
                             'branch': build['branch'],
-                            'coverage': round(build['totals']['coverage'], 3)
+                            'coverage': round(build['totals']['coverage'], 3),
+                            'total_lines': build['totals']['lines']
                         }
                         for build in (await res.json()).get('results', [])
                     ]

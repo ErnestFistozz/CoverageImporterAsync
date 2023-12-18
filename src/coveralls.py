@@ -60,7 +60,8 @@ class CoverallsCoverage(BaseCoverage):
                             'commit_sha': build['commit_sha'],
                             'repository_name': build['repo_name'],
                             'branch': build['branch'],
-                            'coverage': round(build['covered_percent'], 3)
+                            'coverage': round(build['covered_percent'], 3),
+                            'total_lines': build['relevant_lines']
 
                         }
                         for build in (await res.json()).get('builds', [])
