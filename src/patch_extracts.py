@@ -29,8 +29,8 @@ class PatchExtracts:
                 else:
                     code_count += 1
         return {
-            'test_files': 1 if code_count == 0 and test_count > 0 else 0,
-            'code_files': 1 if code_count > 0 and test_count == 0 else 0,
-            'test_code_files': 1 if code_count > 0 and test_count > 0 else 0,
-            'other_files': 1 if code_count == 0 and test_count == 0 else 0,
+            'test_files': 1 if code_count == 0 and test_count > 0 else 0,   # Test only
+            'code_files': 1 if code_count > 0 and test_count == 0 else 0,   # code only
+            'test_code_files': 1 if code_count > 0 and test_count > 0 else 0,   # Test and files
+            'other_files': 1 if code_count == 0 and test_count == 0 else 0,     # Config Only
         }

@@ -2,8 +2,6 @@ from datetime import datetime, timezone
 import csv
 import platform
 import subprocess
-import logging
-
 
 class Utils:
     @staticmethod
@@ -40,43 +38,22 @@ class Utils:
                 return username
 
     @staticmethod
-    def coverage_logger(filename: str, error_message: str) -> None:
-        full_datetime = datetime.now()
-        file_format = '{}_{}_{}_{}_{}_{}'.format(full_datetime.day,
-                                                 full_datetime.month,
-                                                 full_datetime.year,
-                                                 full_datetime.second,
-                                                 full_datetime.minute,
-                                                 full_datetime.hour)
-        match platform.system().lower():
-            case 'linux' | 'darwin':
-                full_filename = rf'/home/{Utils.determine_machine()}/repositories/{file_format}_{filename}.log'
-            case 'windows':
-                full_filename = rf'C:\Users\{Utils.determine_machine()}\Desktop\AzureDevOpsRepos\{file_format}_{filename}.log'
-        logging.basicConfig(filename=full_filename,
-                            encoding='utf-8',
-                            format='%(asctime)s:%(levelname)s:%(message)s',
-                            level=logging.DEBUG,
-                            datefmt='%m/%d/%Y %I:%M:%S %p')
-        logging.error(error_message)
-
-    @staticmethod
     def save_into_file(filename: str, data: list) -> None:
-        file_path = rf'{Utils.file_path()}/{filename}'
-        try:
-            with open(file_path, 'a+', newline="") as file:
-                writer = csv.DictWriter(file, fieldnames=data[0].keys())
-                for row in data:
-                    writer.writerow(row)
-        except Exception as e:
-            print(f"Error saving data to {file_path}: {str(e)}")
+        file_path = rf'{Utils.file_path()}{filename}'
+        if data:  # if empty results then all hashes must be ignored
+            try:
+                with open(file_path, 'a+', newline="") as file:
+                    writer = csv.DictWriter(file, fieldnames=data[0].keys())
+                    for row in data:
+                        if 'patch_coverage' in row:
+                            writer.writerow(row)    # ensures that data without full columns is skipped
+            except Exception as e:
+                print(f"Error saving data to {file_path}: {str(e)}")
 
     @staticmethod
     def file_path() -> str:
         match platform.system().lower():
             case 'linux' | 'darwin':
-                return rf'/home/{Utils.determine_machine()}/repositories'
+                return rf'/home/{Utils.determine_machine()}/repositories/'
             case 'windows':
-                return rf'C:\Users\{Utils.determine_machine()}\Desktop\AzureDevOpsRepos'
-
-
+                return rf'C:\Users\{Utils.determine_machine()}\Desktop\AzureDevOpsRepos' + "\\"

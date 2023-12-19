@@ -1,13 +1,16 @@
 import asyncio
 import aiohttp
-from src.basecoverage import BaseCoverage
 import json
 from src.utils import Utils
+from src.basecoverage import BaseCoverage
+from src.codecov_logger import CodecovCoverageLogger
+
 
 class CodeCovCoverage(BaseCoverage):
 
-    def __init__(self, organisation: str, repository: str) -> None:
+    def __init__(self, organisation: str, repository: str, repo_logger: CodecovCoverageLogger) -> None:
         super().__init__(organisation, repository)
+        self.logger = repo_logger
 
     async def total_builds_pages(self) -> int:
         url = f'https://codecov.io/api/v2/gh/{self.organisation}/repos/{self.repository}/commits'
@@ -17,10 +20,9 @@ class CodeCovCoverage(BaseCoverage):
                     res.raise_for_status()
                     data = await res.json()
                     return data.get('total_pages')
-            except (aiohttp.ClientError, json.JSONDecodeError, KeyError) as e:
-                print(e)
-                return 0
-            except Exception:
+            except Exception as err:
+                self.logger.debug(f"CodeCov encountered error while trying to retrieve build pages for repository: {self.organisation}/{self.repository} "
+                                  f":{str(err)}")
                 return 0
 
     async def collect_build_data(self) -> list:
@@ -31,9 +33,10 @@ class CodeCovCoverage(BaseCoverage):
             for page in range(1, builds_pages + 1):
                 task = asyncio.create_task(self._fetch_build_data(page))
                 tasks.append(task)
-        data.extend(await asyncio.gather(*tasks))
-        flat_data = [item for sublist in data for item in sublist]
-        return flat_data
+            data.extend(await asyncio.gather(*tasks))
+            flat_data = [item for sublist in data for item in sublist]
+            return flat_data
+        return data
 
     async def _fetch_build_data(self, page: int) -> list:
         url = f'https://codecov.io/api/v2/gh/{self.organisation}/repos/{self.repository}/commits?page={page}'
@@ -52,10 +55,9 @@ class CodeCovCoverage(BaseCoverage):
                         }
                         for build in (await res.json()).get('results', [])
                     ]
-        except (aiohttp.ClientError, json.JSONDecodeError, KeyError, RuntimeError) as e:
-            print(f"Error in fetch_build_data for page {page}: {e}")
-            return []
-        except Exception:
+        except Exception as err:
+            self.logger.information(
+                f"CodeCov failed to fetch build history for page: {page} in repository: {self.organisation}/{self.repository}. Error: {str(err)}")
             return []
 
     async def commit_report(self, commit_hash: str):
@@ -73,8 +75,9 @@ class CodeCovCoverage(BaseCoverage):
                         else:
                             raise Exception
                     return await res.json()
-        except Exception as e:
-            print(e)
+        except Exception as err:
+            self.logger.error(
+                f"CodeCov failed to fetch commit report for commit-hash: {commit_hash} in repository {self.organisation}/{self.repository}. Error: {str(err)}")
             return {}
 
     @staticmethod
@@ -85,7 +88,10 @@ class CodeCovCoverage(BaseCoverage):
                     if isinstance(commit_details['totals']['diff'], list):
                         if not isinstance(commit_details['totals']['diff'][5], type(None)):
                             return float(commit_details['totals']['diff'][5])
-            except (KeyError, TypeError) as e:
+                        return 0
+                    return 0
+                return 0
+            except (KeyError, TypeError) as err:
                 return 0
         return 0
 

@@ -44,7 +44,7 @@ async def codecov_project(organisation: str, repository: str) -> ProjectKeyStati
                     data['count'],
                     language=None, annotation=None)
     except Exception as error:
-        print(f'Error occured while trying to retrived repository statistics: {str(error)}')
+        print(f'Error occured while trying to retrieve repository statistics: {str(error)}')
 
 
 def statistics_formatter(repositories: List, filename='repositoryStats', common_repos=False) -> None:

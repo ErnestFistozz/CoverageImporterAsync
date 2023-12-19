@@ -4,13 +4,14 @@ from src.basecoverage import BaseCoverage
 import urllib3
 import json
 from src.utils import Utils
-
+from src.coveralls_logger import CoverallsCoverageLogger
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 class CoverallsCoverage(BaseCoverage):
-    def __init__(self, organisation: str, repository: str) -> None:
+    def __init__(self, organisation: str, repository: str, repo_logger: CoverallsCoverageLogger) -> None:
         super().__init__(organisation, repository)
+        self.logger = repo_logger
 
     async def total_builds_pages(self) -> int:
         url = f'https://coveralls.io/github/{self.organisation}/{self.repository}.json?page=1&per_page=10'
@@ -26,7 +27,11 @@ class CoverallsCoverage(BaseCoverage):
                         else:
                             raise Exception
                     return (await response.json())['pages']
-        except Exception as e:
+        except Exception as err:
+            self.logger.debug(
+                f"Coveralls encountered error while trying to retrieve number of build pages for {self.organisation}/{self.repository}\n"
+                f":{str(err)}"
+            )
             return 0
 
     async def collect_builds_data(self) -> list:
@@ -37,9 +42,10 @@ class CoverallsCoverage(BaseCoverage):
             for page in range(1, builds_pages + 1):
                 task = asyncio.create_task(self._fetch_builds_data(page))
                 tasks.append(task)
-        data.extend(await asyncio.gather(*tasks))
-        flat_data = [item for sublist in data for item in sublist]
-        return flat_data
+            data.extend(await asyncio.gather(*tasks))
+            flat_data = [item for sublist in data for item in sublist]
+            return flat_data
+        return data
 
     async def _fetch_builds_data(self, page: int) -> list:
         wait_time: int = 600
@@ -66,7 +72,10 @@ class CoverallsCoverage(BaseCoverage):
                         }
                         for build in (await res.json()).get('builds', [])
                     ]
-        except Exception as e:
+        except Exception as err:
+            self.logger.information(
+                f"Coveralls failed to fetch build history for page: {page} in {self.organisation}/{self.repository}. Error: {str(err)}"
+            )
             return []
 
     async def fetch_source_files(self, commit_hash: str) -> list:
@@ -86,7 +95,7 @@ class CoverallsCoverage(BaseCoverage):
                     total_pages = (await response.json())['total_pages']
                     if total_pages > 1:
                         for page in range(1, total_pages + 1):
-                            page_url = f'{file_url}?&page={page}'
+                            page_url = f'{file_url}?page={page}'
                             page_response = await session.get(page_url)
 
                             try:
@@ -107,7 +116,10 @@ class CoverallsCoverage(BaseCoverage):
                         source_files.extend(
                             source_file['name'] for source_file in json.loads(files))
                     return source_files
-        except Exception as e:
+        except Exception as err:
+            self.logger.error(
+                f"Coveralls failed to fetch commit source files for commit-hash: {commit_hash} in {self.organisation}/{self.repository}. Error: {str(err)}"
+            )
             return []
 
     async def source_coverage_array(self, commit: str,  filename: str) -> list:
@@ -122,5 +134,8 @@ class CoverallsCoverage(BaseCoverage):
                             async with session.get(url, ssl=False) as retry_response:
                                 response = retry_response
                     return await response.json()
-        except Exception as e:
+        except Exception as err:
+            self.logger.error(
+                f"Coveralls failed to fetch coverage array for file: {filename} in commit-hash: {commit} for repository: {self.organisation}/{self.repository}. Error: {str(err)}"
+                )
             return []
