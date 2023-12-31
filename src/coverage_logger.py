@@ -3,6 +3,7 @@ import logging
 from datetime import datetime
 from src.utils import Utils
 
+
 class CoverageLogger(ABC):
     @abstractmethod
     def warning(self, error_message) -> None:
@@ -23,12 +24,9 @@ class CoverageLogger(ABC):
     @staticmethod
     def coverage_logger_configuration(filename: str) -> None:
         full_datetime = datetime.now()
-        file_format = '{}_{}_{}_{}_{}_{}'.format(full_datetime.day,
-                                                 full_datetime.month,
-                                                 full_datetime.year,
-                                                 full_datetime.second,
-                                                 full_datetime.minute,
-                                                 full_datetime.hour)
+        file_format = '{}_{}_{}'.format(full_datetime.day,
+                                        full_datetime.month,
+                                        full_datetime.year)
         full_filename = rf'{Utils.file_path()}{file_format}_{filename}.log'
         logging.basicConfig(filename=full_filename,
                             encoding='utf-8',
