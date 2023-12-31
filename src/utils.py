@@ -19,7 +19,9 @@ class Utils:
     @staticmethod
     def repositories(file_name: str) -> list:
         with open(file_name, 'r') as file:
-            return [line.split()[0].split("/") for line in file]
+            data = [line.split()[0].split("/") for line in file]
+            file.close()
+            return data
 
     @staticmethod
     def determine_machine() -> str:
@@ -47,6 +49,7 @@ class Utils:
                     for row in data:
                         if 'patch_coverage' in row:
                             writer.writerow(row)    # ensures that data without full columns is skipped
+                    file.close()
             except Exception as e:
                 print(f"Error saving data to {file_path}: {str(e)}")
 
