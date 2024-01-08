@@ -27,6 +27,7 @@ class CodeCovRepositories(BaseCoverage):
                     return (await res.json())['total_pages']
             except (aiohttp.ClientError, json.JSONDecodeError, KeyError):
                 return None
+
     '''
         method to retrieve all repositories
         iterates all pages based on the get_total_pages method above
