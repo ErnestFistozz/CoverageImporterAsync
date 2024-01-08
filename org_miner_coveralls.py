@@ -23,7 +23,7 @@ if __name__ == '__main__':
         repositories = loop.run_until_complete(repo.repositories())
 
         for active_repo in repositories:
-            repo_name = active_repo['name']
+            repo_name = active_repo
             coveralls = CoverallsCoverage(org, repo_name, coveralls_loger)
             coveralls_importer = CoverallsCoverageImporter(coveralls)
             coveralls_data = loop.run_until_complete(coveralls_importer.analyze_commits())

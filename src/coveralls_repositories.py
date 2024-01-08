@@ -63,11 +63,11 @@ class CoverallsRepository(CoverageRepository):
                         try:
                             org_project_name = repository_name[1].find('a')
                             current_repo = org_project_name[0].text
-                            full_name = f'{self.organisation}/{current_repo}'
-                            self.repo_names.append(full_name)
+                            self.repo_names.append(current_repo)
                         except Exception as err:
                             print(f'Exception occured, skipping page')
                             continue
+
 
 if __name__ == '__main__':
     codecov = CoverallsRepository('kubernetes')
