@@ -2,11 +2,12 @@ from .basecoverage import BaseCoverage
 import aiohttp
 import urllib3
 import json
+from .coverage_repository import CoverageRepository
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
-class CodeCovRepositories(BaseCoverage):
+class CodeCovRepositories(CoverageRepository):
     def __init__(self, organisation: str, repository=None):
         super().__init__(organisation, repository)
 
@@ -18,7 +19,7 @@ class CodeCovRepositories(BaseCoverage):
     @return <int> total number of pages --> each page contains 10 repositories
     '''
 
-    async def get_total_pages(self) -> int | None:
+    async def get_total_pages(self) -> int:
         async with aiohttp.ClientSession() as session:
             try:
                 url = f'https://codecov.io/api/v2/gh/{self.organisation}/repos?active=true'
@@ -26,7 +27,7 @@ class CodeCovRepositories(BaseCoverage):
                     res.raise_for_status()
                     return (await res.json())['total_pages']
             except (aiohttp.ClientError, json.JSONDecodeError, KeyError):
-                return None
+                return 0
 
     '''
         method to retrieve all repositories
@@ -40,27 +41,23 @@ class CodeCovRepositories(BaseCoverage):
         }
     '''
 
-    async def repositories(self) -> list:
-        pages = await self.get_total_pages()
-        data = []
-        async with aiohttp.ClientSession() as session:
-            if pages != 0 and pages is not None:
-                for page in range(1, pages + 1):
-                    try:
-                        url = f'https://codecov.io/api/v2/gh/{self.organisation}/repos?active=true&page={page}'
-                        async with session.get(url, verify_ssl=False) as res:
-                            res.raise_for_status()
-                            data.extend(
-                                [{
-                                    "name": repos['name'],
-                                    "language": repos['language'],
-                                    "branch": repos['branch'],
-                                    "organisation": repos['author']['username']
-                                }
-                                    for repos in (await res.json())['results']])
-                    except (aiohttp.ClientError, json.JSONDecodeError, KeyError, RuntimeError):
-                        continue
-            return data
+    async def _fetch_repo_names(self, session, page):
+        url = f'https://codecov.io/api/v2/gh/{self.organisation}/repos?active=true&page={page}'
+        async with session.get(url) as response:
+            if response.status == 200:
+                try:
+                    self.repo_names.extend([{
+                        "name": repos['name'],
+                        "language": repos['language'],
+                        "branch": repos['branch'],
+                        "organisation": repos['author']['username']
+                    }
+                        for repos in (await response.json())['results']])
+                except Exception as err:
+                    print(
+                        f'An exception occured while trying to get repositories for {self.organisation} in page {page}\n'
+                        f'see more : {err}')
+
 
 
 if __name__ == '__main__':

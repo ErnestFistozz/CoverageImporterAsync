@@ -2,7 +2,6 @@ from .coverage_repository import CoverageRepository
 from requests_html import HTML
 import urllib3
 import aiohttp
-import asyncio
 
 urllib3.disable_warnings()
 
@@ -69,16 +68,6 @@ class CoverallsRepository(CoverageRepository):
                         except Exception as err:
                             print(f'Exception occured, skipping page')
                             continue
-
-    async def repositories(self) -> list:
-        return await super().repositories()
-        # start_page = 1
-        # total_pages = await self.get_total_pages()
-        # async with aiohttp.ClientSession() as session:
-        #     tasks = [self._fetch_repo_names(session, page) for page in range(start_page, total_pages + 1)]
-        #     await asyncio.gather(*tasks)
-        # return self.repo_names
-
 
 if __name__ == '__main__':
     codecov = CoverallsRepository('kubernetes')
