@@ -54,8 +54,10 @@ class CodecovCoverageImporter(CoverageImporter):
                                             executable_lines += 1
             patch_files = PatchExtracts.patch_files(commit, commit_files)
             patch_size = PatchExtracts.patch_sizes(commit, commit_files)
+            patch_number_of_files = PatchExtracts.patch_number_of_files(commit, commit_files)
             build.update(patch_files)  # update the
             build.update(patch_size)
+            build.update(patch_number_of_files)
             dmm_commit_size = commit.dmm_unit_size if not isinstance(commit.dmm_unit_size, type(None)) else 0
             dmm_commit_complexity = commit.dmm_unit_complexity if not isinstance(commit.dmm_unit_complexity,
                                                                                  type(None)) else 0
@@ -121,9 +123,10 @@ class CoverallsCoverageImporter(CoverageImporter):
                                                    line_coverage_array[line_number - 1] > 0])
             patch_files = PatchExtracts.patch_files(commit, commit_files)
             patch_size = PatchExtracts.patch_sizes(commit, commit_files)
-
+            patch_number_of_files = PatchExtracts.patch_number_of_files(commit, commit_files)
             build.update(patch_files)  # update the
             build.update(patch_size)
+            build.update(patch_number_of_files)
 
             dmm_commit_size = commit.dmm_unit_size if not isinstance(commit.dmm_unit_size, type(None)) else 0
             dmm_commit_complexity = commit.dmm_unit_complexity if not isinstance(commit.dmm_unit_complexity,
